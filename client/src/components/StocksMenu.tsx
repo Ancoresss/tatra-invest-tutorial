@@ -13,11 +13,11 @@ interface StocksMenuProps {}
 
 export const StocksMenu: FC<StocksMenuProps> = ({}) => {
   return (
-    <Sheet>
+    <Sheet >
       <SheetTrigger asChild>
         <Button>Select a stock</Button>
       </SheetTrigger>
-      <SheetContent>
+      <SheetContent side="left">
         <SheetHeader>
           <SheetTitle>Are you absolutely sure?</SheetTitle>
           <SheetDescription>

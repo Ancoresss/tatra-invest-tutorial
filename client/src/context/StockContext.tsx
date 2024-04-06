@@ -28,17 +28,18 @@ const dataMapper: StockInfo = {
 
 export const StockProvider: FC<{ children: ReactNode }> = ({ children }) => {
   const { data } = useSWR<StockInfo>("/stock", async () => {
-    const [dividends, overview, earnings, history_data, profile, technical_analysis] =
-      await Promise.all([
-        StockService.getStockDividendsByCountryAndSymbol("unites states", "AAPL"),
-        StockService.getStockOverviewByCountryAndSymbol("unites states", "AAPL"),
-        StockService.getStockEarningsByCountryAndSymbol("unites states", "AAPL"),
-        StockService.getStockHistoricalDataByCountryAndSymbol("unites states", "AAPL"),
-        StockService.getStockProfileByCountryAndSymbol("unites states", "AAPL"),
-        StockService.getStockTechnicalAnalysisByCountryAndSymbol("unites states", "AAPL"),
-      ]);
+    // const [dividends, overview, earnings, history_data, profile, technical_analysis] =
+    //   await Promise.all([
+    //     StockService.getStockDividendsByCountryAndSymbol("unites states", "AAPL"),
+    //     StockService.getStockOverviewByCountryAndSymbol("unites states", "AAPL"),
+    //     StockService.getStockEarningsByCountryAndSymbol("unites states", "AAPL"),
+    //     StockService.getStockHistoricalDataByCountryAndSymbol("unites states", "AAPL"),
+    //     StockService.getStockProfileByCountryAndSymbol("unites states", "AAPL"),
+    //     StockService.getStockTechnicalAnalysisByCountryAndSymbol("unites states", "AAPL"),
+    //   ]);
 
-    return { dividends, overview, earnings, history_data, profile, technical_analysis };
+    // return { dividends, overview, earnings, history_data, profile, technical_analysis };
+    return {}
   });
 
   return data ? (

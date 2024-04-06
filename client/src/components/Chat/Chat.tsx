@@ -13,11 +13,7 @@ interface ChatProps extends HTMLAttributes<HTMLDivElement> {}
 export const Chat: FC<ChatProps> = ({ className, ...props }) => {
   const state = useChatStorage();
 
-  if (!state.chatOpen) {
-    return null;
-  }
-
-  return (
+  return state.chatOpen ? (
     <Card {...props} className={cn("flex flex-col", className)}>
       <CardHeader>
         <CardTitle>Assistant</CardTitle>
@@ -28,5 +24,5 @@ export const Chat: FC<ChatProps> = ({ className, ...props }) => {
         <ChatInput />
       </CardContent>
     </Card>
-  );
+  ) : null;
 };
