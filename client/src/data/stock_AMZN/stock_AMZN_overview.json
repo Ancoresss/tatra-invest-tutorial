@@ -1,0 +1,12 @@
+{
+    "data": {
+        "change": "+5.07",
+        "change%": "+2.82%",
+        "currency": "USD",
+        "name": "Amazon.com Inc",
+        "price": "185.07",
+        "symbol": "AMZN"
+    },
+    "message": "Success!",
+    "status": 200
+}

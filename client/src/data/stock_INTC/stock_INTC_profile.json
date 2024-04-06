@@ -1,0 +1,19 @@
+{
+    "data": [
+        {
+            "contact": {
+                "Address": "2200 Mission College Boulevard Santa Clara , 95054-1549 United States",
+                "Fax": "-",
+                "Phone": "408 765 8080",
+                "Web": "www.intel.com"
+            },
+            "description": "Intel Corporation designs, develops, manufactures, markets, and sells computing and related products and services worldwide. It operates through Client Computing Group, Data Center and AI, Network and Edge, Mobileye, and Intel Foundry Services segments. The company's products portfolio comprises central processing units and chipsets, system-on-chips (SoCs), and multichip packages; mobile and desktop processors; hardware products comprising graphics processing units (GPUs), domain-specific accelerators, and field programmable gate arrays (FPGAs); and memory and storage, connectivity and networking, and other semiconductor products. It also offers silicon devices and software products; and optimization solutions for workloads, such as AI, cryptography, security, storage, networking, and leverages various features supporting diverse compute environments. In addition, the company develops and deploys advanced driver assistance systems (ADAS), and autonomous driving technologies and solutions; and provides advanced process technologies backed by an ecosystem of IP, EDA, and design services, as well as systems of chips, including advanced packaging technologies, software and accelerate bring-up, and integration of chips and driving standards. Further, it delivers and deploys intelligent edge platforms that allow developers to achieve agility and drive automation using AI for efficient operations with data integrity, as well as provides hardware and software platforms, tools, and ecosystem partnerships for digital transformation from the cloud to edge. The company serves original equipment manufacturers, original design manufacturers, cloud service providers, and other manufacturers and service providers. It has a strategic agreement with Synopsys, Inc. to develop EDA and IP solutions; and ARM that enables chip designers to build optimized compute SoCs on the Intel 18A process. Intel Corporation was incorporated in 1968 and is headquartered in Santa Clara, California.",
+            "employees": "124800",
+            "equityType": "ORD",
+            "industry": "Semiconductors & Semiconductor Equipment",
+            "sector": "Technology"
+        }
+    ],
+    "message": "Success!",
+    "status": 200
+}

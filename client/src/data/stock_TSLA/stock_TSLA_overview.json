@@ -1,0 +1,12 @@
+{
+    "data": {
+        "change": "-6.21",
+        "change%": "-3.63%",
+        "currency": "USD",
+        "name": "Tesla Inc",
+        "price": "164.90",
+        "symbol": "TSLA"
+    },
+    "message": "Success!",
+    "status": 200
+}

@@ -1,0 +1,12 @@
+{
+    "data": {
+        "change": "+4.59",
+        "change%": "+2.77%",
+        "currency": "USD",
+        "name": "Advanced Micro Devices Inc",
+        "price": "170.42",
+        "symbol": "AMD"
+    },
+    "message": "Success!",
+    "status": 200
+}

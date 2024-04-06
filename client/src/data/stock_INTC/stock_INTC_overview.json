@@ -1,0 +1,12 @@
+{
+    "data": {
+        "change": "-1.02",
+        "change%": "-2.57%",
+        "currency": "USD",
+        "name": "Intel Corporation",
+        "price": "38.71",
+        "symbol": "INTC"
+    },
+    "message": "Success!",
+    "status": 200
+}

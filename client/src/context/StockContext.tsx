@@ -3,12 +3,12 @@
 import React, { FC, ReactNode } from "react";
 import useSWR from "swr";
 
-import StockOverview from "../data/stock_AAPL_overview.json";
-import StockDividends from "../data/stock_AAPL_dividends.json";
-import StockEarnings from "../data/stock_AAPL_earnings.json";
-import StockHistoryData from "../data/stock_AAPL_histor_data.json";
-import StockProfile from "../data/stock_AAPL_profile.json";
-import StockTechnical from "../data/stock_AAPL_technical-analysis.json";
+import StockOverview from "../data/stock_APPL/stock_AAPL_overview.json";
+import StockDividends from "../data/stock_APPL/stock_AAPL_dividends.json";
+import StockEarnings from "../data/stock_APPL/stock_AAPL_earnings.json";
+import StockHistoryData from "../data/stock_APPL/stock_AAPL_histor_data.json";
+import StockProfile from "../data/stock_APPL/stock_AAPL_profile.json";
+import StockTechnical from "../data/stock_APPL/stock_AAPL_technical-analysis.json";
 
 import StockInfo from "@/type/StockInfo";
 import StockService from "@/services/invest-api/StockService";

@@ -1,0 +1,144 @@
+{
+    "data": {
+        "moving averages": [
+            {
+                "Exponential": "170.50Sell",
+                "Name": "MA5",
+                "Name.1": "MA5",
+                "Simple": "171.16Sell"
+            },
+            {
+                "Exponential": "172.00Sell",
+                "Name": "MA10",
+                "Name.1": "MA10",
+                "Simple": "170.81Sell"
+            },
+            {
+                "Exponential": "174.05Sell",
+                "Name": "MA20",
+                "Name.1": "MA20",
+                "Simple": "175.32Sell"
+            },
+            {
+                "Exponential": "176.98Sell",
+                "Name": "MA50",
+                "Name.1": "MA50",
+                "Simple": "178.01Sell"
+            },
+            {
+                "Exponential": "180.69Sell",
+                "Name": "MA100",
+                "Name.1": "MA100",
+                "Simple": "179.78Sell"
+            },
+            {
+                "Exponential": "182.27Sell",
+                "Name": "MA200",
+                "Name.1": "MA200",
+                "Simple": "188.20Sell"
+            }
+        ],
+        "pivot points": [
+            {
+                "Unnamed: 0": "Moving Averages:",
+                "Unnamed: 1": "Strong Sell",
+                "Unnamed: 2": "Buy: (0)",
+                "Unnamed: 3": "Sell: (12)"
+            },
+            {
+                "Unnamed: 0": "Technical Indicators:",
+                "Unnamed: 1": "Strong Sell",
+                "Unnamed: 2": "Buy: (2)",
+                "Unnamed: 3": "Sell: (9)"
+            }
+        ],
+        "technical indicators": [
+            {
+                "Action": "Sell",
+                "Name": "RSI(14)",
+                "Name.1": "RSI(14)",
+                "Name.2": "RSI(14)",
+                "Value": 37.209
+            },
+            {
+                "Action": "Sell",
+                "Name": "STOCH(9,6)",
+                "Name.1": "STOCH(9,6)",
+                "Name.2": "STOCH(9,6)",
+                "Value": 42.968
+            },
+            {
+                "Action": "Buy",
+                "Name": "STOCHRSI(14)",
+                "Name.1": "STOCHRSI(14)",
+                "Name.2": "STOCHRSI(14)",
+                "Value": 60.072
+            },
+            {
+                "Action": "Sell",
+                "Name": "MACD(12,26)",
+                "Name.1": "MACD(12,26)",
+                "Name.2": "MACD(12,26)",
+                "Value": -2.44
+            },
+            {
+                "Action": "Sell",
+                "Name": "ADX(14)",
+                "Name.1": "ADX(14)",
+                "Name.2": "ADX(14)",
+                "Value": 32.578
+            },
+            {
+                "Action": "Sell",
+                "Name": "Williams %R",
+                "Name.1": "Williams %R",
+                "Name.2": "Williams %R",
+                "Value": -72.376
+            },
+            {
+                "Action": "Sell",
+                "Name": "CCI(14)",
+                "Name.1": "CCI(14)",
+                "Name.2": "CCI(14)",
+                "Value": -57.7417
+            },
+            {
+                "Action": "High Volatility",
+                "Name": "ATR(14)",
+                "Name.1": "ATR(14)",
+                "Name.2": "ATR(14)",
+                "Value": 2.4764
+            },
+            {
+                "Action": "Sell",
+                "Name": "Highs/Lows(14)",
+                "Name.1": "Highs/Lows(14)",
+                "Name.2": "Highs/Lows(14)",
+                "Value": -1.6821
+            },
+            {
+                "Action": "Buy",
+                "Name": "Ultimate Oscillator",
+                "Name.1": "Ultimate Oscillator",
+                "Name.2": "Ultimate Oscillator",
+                "Value": 51.517
+            },
+            {
+                "Action": "Sell",
+                "Name": "ROC",
+                "Name.1": "ROC",
+                "Name.2": "ROC",
+                "Value": -5.737
+            },
+            {
+                "Action": "Sell",
+                "Name": "Bull/Bear Power(13)",
+                "Name.1": "Bull/Bear Power(13)",
+                "Name.2": "Bull/Bear Power(13)",
+                "Value": -3.432
+            }
+        ]
+    },
+    "message": "Success!",
+    "status": 200
+}

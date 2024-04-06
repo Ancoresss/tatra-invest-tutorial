@@ -1,0 +1,48 @@
+{
+    "data": [
+        {
+            "Dividend": 0.125,
+            "Ex-Dividend Date": "Feb 06, 2024",
+            "Payment Date": "Mar 01, 2024",
+            "Type": null,
+            "Yield": "1.17%"
+        },
+        {
+            "Dividend": 0.125,
+            "Ex-Dividend Date": "Nov 06, 2023",
+            "Payment Date": "Dec 01, 2023",
+            "Type": null,
+            "Yield": "1.31%"
+        },
+        {
+            "Dividend": 0.125,
+            "Ex-Dividend Date": "Aug 04, 2023",
+            "Payment Date": "Sep 01, 2023",
+            "Type": null,
+            "Yield": "1.43%"
+        },
+        {
+            "Dividend": 0.125,
+            "Ex-Dividend Date": "May 04, 2023",
+            "Payment Date": "Jun 01, 2023",
+            "Type": null,
+            "Yield": "1.63%"
+        },
+        {
+            "Dividend": 0.365,
+            "Ex-Dividend Date": "Feb 06, 2023",
+            "Payment Date": "Mar 01, 2023",
+            "Type": null,
+            "Yield": "4.82%"
+        },
+        {
+            "Dividend": 0.365,
+            "Ex-Dividend Date": "Nov 04, 2022",
+            "Payment Date": "Dec 01, 2022",
+            "Type": null,
+            "Yield": "5.33%"
+        }
+    ],
+    "message": "Success!",
+    "status": 200
+}

@@ -1,0 +1,13 @@
+{
+    "data": [
+        {
+            "Dividend": 0.01,
+            "Ex-Dividend Date": "Apr 27, 1995",
+            "Payment Date": "May 24, 1995",
+            "Type": null,
+            "Yield": "0.03%"
+        }
+    ],
+    "message": "Success!",
+    "status": 200
+}
