@@ -1,14 +1,14 @@
 import {Header} from "@/components/Header";
-import StockContext from "@/context/StockContext";
-
+import {StockProvider} from '@/context/StockContext'
 export default function Template({children}) {
 
 
     return (
-        <>
+        <StockProvider>
+
             <Header></Header>
             {children}
 
-        </>
+        </StockProvider>
     );
 }
