@@ -1,6 +1,5 @@
 import {API_URL, Token} from "@/services/ApiData";
 
-
 const headers = {
     'X-RapidAPI-Key': Token,
     'X-RapidAPI-Host': 'investing4.p.rapidapi.com'
