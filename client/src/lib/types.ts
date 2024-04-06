@@ -24,5 +24,5 @@ export type IScenarioInstruction = {
 
 export type IScenario = {
   scenarioType: string;
-  instructions: IScenarioInstruction;
+  instructions: IScenarioInstruction[];
 };
