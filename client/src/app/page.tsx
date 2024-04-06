@@ -2,7 +2,6 @@ import { Chat } from "@/components/Chat";
 import OccupyRestWindowHeight from "@/components/OccupyRestWindowHeight";
 import { StocksMenu } from "@/components/StocksMenu";
 import { Separator } from "@/components/ui/separator";
-import { useChatStorage } from "@/lib/storage/chatStorage";
 
 export default function Home() {
   return (
