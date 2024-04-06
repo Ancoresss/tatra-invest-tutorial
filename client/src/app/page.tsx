@@ -1,7 +1,6 @@
 import { Chat } from "@/components/Chat";
+import { DashboardTopInfo } from "@/components/DashboardTopInfo";
 import OccupyRestWindowHeight from "@/components/OccupyRestWindowHeight";
-import { StocksMenu } from "@/components/StocksMenu";
-import { Separator } from "@/components/ui/separator";
 
 export default function Home() {
   return (
@@ -9,10 +8,7 @@ export default function Home() {
       <main className="flex p-8 h-full">
         <div className="w-full h-full flex flex-col">
           <div className="dashboard-top-info border border-slate">
-            <div className="relative mr-4">
-              <StocksMenu />
-              <Separator orientation="vertical" className="absolute h-full top-0 -right-4" />
-            </div>
+            <DashboardTopInfo />
           </div>
           <div className="h-full grid grid-cols-12 border border-slate">
             <div className="col-span-8 border border-slate"></div>
