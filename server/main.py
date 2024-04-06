@@ -1,7 +1,10 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
+from assistant.chatbot import chain
 
 app = FastAPI()
 
-@app.get("/")
-async def root():
-    return {"message": "Hello World"}
+@app.post("/chat")
+async def root(req: Request):
+    data = await req.json()
+    print(data)
+    return {"answer": chain.invoke(data["message"])}

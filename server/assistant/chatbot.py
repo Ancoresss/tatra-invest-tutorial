@@ -115,8 +115,3 @@ chain = (
     | model
     | StrOutputParser()
 )
-
-
-print(chain.invoke("invest 100"))
-# while True:
-  # print(chain.invoke(input(">> ")))
