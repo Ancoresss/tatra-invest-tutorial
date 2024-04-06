@@ -2,6 +2,7 @@ import { Chart } from "@/components/Chart";
 import { Chat } from "@/components/Chat";
 import { DashboardTopInfo } from "@/components/DashboardTopInfo";
 import OccupyRestWindowHeight from "@/components/OccupyRestWindowHeight";
+import DashboardActions from "@/components/DashboardActions";
 
 export default function Home() {
   return (
@@ -36,7 +37,7 @@ export default function Home() {
                 ]}
               />
             </div>
-            <div className="col-span-4 border border-slate"></div>
+            <DashboardActions/>
           </div>
         </div>
         <Chat className="w-4/12 hidden"></Chat>
