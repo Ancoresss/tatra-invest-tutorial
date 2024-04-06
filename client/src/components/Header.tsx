@@ -1,16 +1,12 @@
 "use client";
 
-import { FC } from "react";
 import {
   NavigationMenu,
-  NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
-  NavigationMenuTrigger,
-  NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
+import { FC } from "react";
 
 interface HeaderProps {}
 
