@@ -1,22 +1,35 @@
 import { create } from "zustand";
 
-export type Message = {
+type BaseMessage = {
   text: string;
 };
 
+export interface IAIMessage extends BaseMessage {
+  type: "ai";
+}
+
+export interface IHumanMessage extends BaseMessage {
+  type: "human";
+}
+
+export type IMessage = IAIMessage | IHumanMessage;
+
 type State = {
   chatOpen: boolean;
-  messages: Message[];
+  messages: IMessage[];
 };
 
 type Action = {
   setChatOpen: (chatOpen: boolean) => void;
-  addMessage: (message: Message[]) => void;
+  addMessage: (message: IMessage[]) => void;
 };
 
 export const useChatStorage = create<State & Action>((set) => ({
   chatOpen: true,
-  messages: [],
+  messages: [
+    { type: "ai", text: "Hello, I'm here to help you with any of your troubles." },
+    { type: "human", text: "How can I start with investing?" },
+  ],
   setChatOpen: (chatOpen) => set(() => ({ chatOpen })),
-  addMessage: (messages: Message[]) => set(() => ({ messages })),
+  addMessage: (messages: IMessage[]) => set(() => ({ messages })),
 }));

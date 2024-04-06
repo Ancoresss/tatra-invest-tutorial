@@ -15,7 +15,7 @@ export default function Home() {
             <div className="col-span-4 border border-slate"></div>
           </div>
         </div>
-        <Chat className="w-4/12 chat border border-slate"></Chat>
+        <Chat className="w-4/12"></Chat>
       </main>
     </OccupyRestWindowHeight>
   );

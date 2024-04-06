@@ -74,3 +74,10 @@
     @apply bg-background text-foreground;
   }
 }
+
+.message-block {
+  border-radius: theme(borderRadius.xl);
+  background: theme(colors.gray.100);
+  padding: theme(spacing.4);
+  max-width: 80%;
+}
