@@ -1,49 +1,35 @@
 "use client";
 
-import React, { FC, ReactNode } from "react";
+import React, { FC, ReactNode, useMemo, useState } from "react";
+import StockInfo from "@/type/StockInfo";
+import { IStock, StockByCountry } from "@/lib/types";
+import { getStockByName, getStocksByCountries } from "@/services/stocksService";
 import useSWR from "swr";
 
-import StockAAPLOverview from "../data/stock_APPL/stock_AAPL_overview.json";
-import StockAAPLDividends from "../data/stock_APPL/stock_AAPL_dividends.json";
-import StockAAPLEarnings from "../data/stock_APPL/stock_AAPL_earnings.json";
-import StockAAPLHistoryData from "../data/stock_APPL/stock_AAPL_histor_data.json";
-import StockAAPLProfile from "../data/stock_APPL/stock_AAPL_profile.json";
-import StockAAPLTechnical from "../data/stock_APPL/stock_AAPL_technical-analysis.json";
-
-import StockInfo from "@/type/StockInfo";
-import StockService from "@/services/invest-api/StockService";
-
-const StockContext = React.createContext<{ stock: StockInfo }>({} as { stock: StockInfo });
+const StockContext = React.createContext<{ currentStock?: IStock }>(
+  {} as { stock: StockInfo; currentStock: IStock }
+);
 
 export default StockContext;
 
-const dataMapper: StockInfo = {
-  dividends: StockAAPLDividends,
-  overview: StockAAPLOverview,
-  earnings: StockAAPLEarnings,
-  history_data: StockAAPLHistoryData,
-  profile: StockAAPLProfile,
-  technical_analysis: StockAAPLTechnical,
-};
-
 export const StockProvider: FC<{ children: ReactNode }> = ({ children }) => {
-  // const { data } = useSWR<StockInfo>("/stock", async () => {
-  // const [dividends, overview, earnings, history_data, profile, technical_analysis] =
-  //   await Promise.all([
-  //     StockService.getStockDividendsByCountryAndSymbol("unites states", "AAPL"),
-  //     StockService.getStockOverviewByCountryAndSymbol("unites states", "AAPL"),
-  //     StockService.getStockEarningsByCountryAndSymbol("unites states", "AAPL"),
-  //     StockService.getStockHistoricalDataByCountryAndSymbol("unites states", "AAPL"),
-  //     StockService.getStockProfileByCountryAndSymbol("unites states", "AAPL"),
-  //     StockService.getStockTechnicalAnalysisByCountryAndSymbol("unites states", "AAPL"),
-  //   ]);
+  const [currentStockId, setCurrentStockId] = useState<string | undefined>();
+  const { data: stocksByCountries } = useSWR<StockByCountry[]>("/stocks-by-countries", () => {
+    return getStocksByCountries();
+  });
+  // stocks by countries
+  // call use swr and get data
+  // get stock by stock name
+  const { data: stockInfo } = useSWR<StockInfo>(currentStockId, async (currentStockId: string) => {
+    return currentStock ? getStockByName(currentStockId) : null;
+  });
 
-  // return { dividends, overview, earnings, history_data, profile, technical_analysis };
-  // return {}
-  // });
+  const currentStock = useMemo(() => {
+    return {} as IStock;
+  }, [stockInfo, currentStockId]);
 
-  return dataMapper ? (
-      <StockContext.Provider value={{ stock: dataMapper }}>{children}</StockContext.Provider>
+  return data ? (
+    <StockContext.Provider value={{ currentStock }}>{children}</StockContext.Provider>
   ) : null;
 };
 export function useStockContext() {

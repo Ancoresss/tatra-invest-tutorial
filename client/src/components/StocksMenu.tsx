@@ -1,4 +1,6 @@
-import { FC } from "react";
+"use client";
+
+import { FC, useContext } from "react";
 import {
   Sheet,
   SheetContent,
@@ -8,23 +10,23 @@ import {
   SheetTrigger,
 } from "./ui/sheet";
 import { Button } from "./ui/button";
+import StockContext from "@/context/StockContext";
 
 interface StocksMenuProps {}
 
 export const StocksMenu: FC<StocksMenuProps> = ({}) => {
+  const { currentStock } = useContext(StockContext);
+
   return (
-    <Sheet >
+    <Sheet>
       <SheetTrigger asChild>
         <Button>Select a stock</Button>
       </SheetTrigger>
       <SheetContent side="left">
         <SheetHeader>
-          <SheetTitle>Are you absolutely sure?</SheetTitle>
-          <SheetDescription>
-            This action cannot be undone. This will permanently delete your account and remove your
-            data from our servers.
-          </SheetDescription>
+          <SheetTitle>Select a stock from a list.</SheetTitle>
         </SheetHeader>
+        <div>Select stocks by </div>
       </SheetContent>
     </Sheet>
   );
