@@ -1,0 +1,456 @@
+{
+  "data": [
+    {
+      "Chg. %": "-3.63%",
+      "High": 170.86,
+      "Last": 164.9,
+      "Low": 160.51,
+      "Name": "Tesla",
+      "Time": "05/04",
+      "Vol.": "136.31M"
+    },
+    {
+      "Chg. %": "-2.57%",
+      "High": 39.46,
+      "Last": 38.71,
+      "Low": 38.51,
+      "Name": "Intel",
+      "Time": "05/04",
+      "Vol.": "66.15M"
+    },
+    {
+      "Chg. %": "+2.77%",
+      "High": 172.69,
+      "Last": 170.42,
+      "Low": 165.58,
+      "Name": "AMD",
+      "Time": "05/04",
+      "Vol.": "65.74M"
+    },
+    {
+      "Chg. %": "+2.82%",
+      "High": 186.27,
+      "Last": 185.07,
+      "Low": 181.97,
+      "Name": "Amazon.com",
+      "Time": "05/04",
+      "Vol.": "41.96M"
+    },
+    {
+      "Chg. %": "+0.45%",
+      "High": 170.39,
+      "Last": 169.58,
+      "Low": 168.95,
+      "Name": "Apple",
+      "Time": "05/04",
+      "Vol.": "41.84M"
+    },
+    {
+      "Chg. %": "+2.43%",
+      "High": 884.81,
+      "Last": 879.94,
+      "Low": 859.26,
+      "Name": "NVIDIA",
+      "Time": "05/04",
+      "Vol.": "39.74M"
+    },
+    {
+      "Chg. %": "+0.04%",
+      "High": 26.7,
+      "Last": 26.66,
+      "Low": 26.35,
+      "Name": "Pfizer",
+      "Time": "05/04",
+      "Vol.": "39.35M"
+    },
+    {
+      "Chg. %": "+0.51%",
+      "High": 37.34,
+      "Last": 37.11,
+      "Low": 36.73,
+      "Name": "Bank of America",
+      "Time": "05/04",
+      "Vol.": "29.67M"
+    },
+    {
+      "Chg. %": "+1.31%",
+      "High": 153.42,
+      "Last": 152.5,
+      "Low": 149.6,
+      "Name": "Alphabet A",
+      "Time": "05/04",
+      "Vol.": "23.28M"
+    },
+    {
+      "Chg. %": "-0.41%",
+      "High": 125.69,
+      "Last": 123.58,
+      "Low": 121.2,
+      "Name": "Micron",
+      "Time": "05/04",
+      "Vol.": "23.16M"
+    },
+    {
+      "Chg. %": "-0.51%",
+      "High": 41.19,
+      "Last": 40.9,
+      "Low": 40.63,
+      "Name": "Comcast",
+      "Time": "05/04",
+      "Vol.": "21.89M"
+    },
+    {
+      "Chg. %": "+1.38%",
+      "High": 122.15,
+      "Last": 121.37,
+      "Low": 119.64,
+      "Name": "Exxon Mobil",
+      "Time": "05/04",
+      "Vol.": "21.68M"
+    },
+    {
+      "Chg. %": "+3.00%",
+      "High": 78.39,
+      "Last": 77.17,
+      "Low": 74.92,
+      "Name": "Uber Tech",
+      "Time": "05/04",
+      "Vol.": "19.42M"
+    },
+    {
+      "Chg. %": "+3.21%",
+      "High": 530.7,
+      "Last": 527.34,
+      "Low": 514.41,
+      "Name": "Meta Platforms",
+      "Time": "05/04",
+      "Vol.": "19.15M"
+    },
+    {
+      "Chg. %": "+1.83%",
+      "High": 426.51,
+      "Last": 425.52,
+      "Low": 418.32,
+      "Name": "Microsoft",
+      "Time": "05/04",
+      "Vol.": "16.47M"
+    },
+    {
+      "Chg. %": "+1.32%",
+      "High": 154.84,
+      "Last": 153.94,
+      "Low": 151.08,
+      "Name": "Alphabet C",
+      "Time": "05/04",
+      "Vol.": "16.15M"
+    },
+    {
+      "Chg. %": "-2.69%",
+      "High": 128.12,
+      "Last": 122.67,
+      "Low": 119.0,
+      "Name": "GE Vernova LLC",
+      "Time": "05/04",
+      "Vol.": "15.41M"
+    },
+    {
+      "Chg. %": "+6.05%",
+      "High": 156.47,
+      "Last": 156.3,
+      "Low": 148.53,
+      "Name": "General Electric",
+      "Time": "05/04",
+      "Vol.": "14.73M"
+    },
+    {
+      "Chg. %": "+1.98%",
+      "High": 327.68,
+      "Last": 326.34,
+      "Low": 324.9,
+      "Name": "Shockwave Medical",
+      "Time": "05/04",
+      "Vol.": "12.38M"
+    },
+    {
+      "Chg. %": "+4.35%",
+      "High": 132.92,
+      "Last": 132.69,
+      "Low": 123.51,
+      "Name": "Dell Tech",
+      "Time": "05/04",
+      "Vol.": "10.33M"
+    },
+    {
+      "Chg. %": "+2.41%",
+      "High": 101.75,
+      "Last": 101.7,
+      "Low": 99.45,
+      "Name": "Rtx Corp",
+      "Time": "05/04",
+      "Vol.": "10.11M"
+    },
+    {
+      "Chg. %": "+1.10%",
+      "High": 118.86,
+      "Last": 118.38,
+      "Low": 116.3,
+      "Name": "Walt Disney",
+      "Time": "05/04",
+      "Vol.": "9.63M"
+    },
+    {
+      "Chg. %": "+1.22%",
+      "High": 142.0,
+      "Last": 141.36,
+      "Low": 138.92,
+      "Name": "Taiwan Semiconductor",
+      "Time": "05/04",
+      "Vol.": "8.19M"
+    },
+    {
+      "Chg. %": "-3.49%",
+      "High": 253.96,
+      "Last": 240.9,
+      "Low": 240.2,
+      "Name": "Coinbase Global",
+      "Time": "05/04",
+      "Vol.": "7.94M"
+    },
+    {
+      "Chg. %": "+0.57%",
+      "High": 162.17,
+      "Last": 161.6,
+      "Low": 159.86,
+      "Name": "Chevron",
+      "Time": "05/04",
+      "Vol.": "7.4M"
+    },
+    {
+      "Chg. %": "-0.07%",
+      "High": 153.01,
+      "Last": 152.39,
+      "Low": 151.61,
+      "Name": "J&J",
+      "Time": "05/04",
+      "Vol.": "6.63M"
+    },
+    {
+      "Chg. %": "-1.26%",
+      "High": 270.62,
+      "Last": 266.69,
+      "Low": 266.36,
+      "Name": "McDonald’s",
+      "Time": "05/04",
+      "Vol.": "6.61M"
+    },
+    {
+      "Chg. %": "+0.92%",
+      "High": 198.12,
+      "Last": 197.45,
+      "Low": 195.11,
+      "Name": "JPMorgan",
+      "Time": "05/04",
+      "Vol.": "6.5M"
+    },
+    {
+      "Chg. %": "+1.23%",
+      "High": 171.04,
+      "Last": 169.97,
+      "Low": 167.29,
+      "Name": "AbbVie",
+      "Time": "05/04",
+      "Vol.": "6.32M"
+    },
+    {
+      "Chg. %": "+0.08%",
+      "High": 457.75,
+      "Last": 455.74,
+      "Low": 450.01,
+      "Name": "UnitedHealth",
+      "Time": "05/04",
+      "Vol.": "5.72M"
+    },
+    {
+      "Chg. %": "+1.04%",
+      "High": 172.24,
+      "Last": 171.53,
+      "Low": 169.71,
+      "Name": "Qualcomm",
+      "Time": "05/04",
+      "Vol.": "5.66M"
+    },
+    {
+      "Chg. %": "-1.04%",
+      "High": 981.99,
+      "Last": 948.02,
+      "Low": 932.02,
+      "Name": "Super Micro Computer",
+      "Time": "05/04",
+      "Vol.": "5.3M"
+    },
+    {
+      "Chg. %": "-0.41%",
+      "High": 490.09,
+      "Last": 485.12,
+      "Low": 481.28,
+      "Name": "Adobe",
+      "Time": "05/04",
+      "Vol.": "4.96M"
+    },
+    {
+      "Chg. %": "+1.15%",
+      "High": 277.96,
+      "Last": 277.14,
+      "Low": 275.03,
+      "Name": "Visa A",
+      "Time": "05/04",
+      "Vol.": "4.37M"
+    },
+    {
+      "Chg. %": "+2.64%",
+      "High": 303.42,
+      "Last": 301.91,
+      "Low": 293.3,
+      "Name": "Salesforce Inc",
+      "Time": "05/04",
+      "Vol.": "4.25M"
+    },
+    {
+      "Chg. %": "+1.44%",
+      "High": 269.7,
+      "Last": 269.01,
+      "Low": 265.25,
+      "Name": "Palo Alto Networks",
+      "Time": "05/04",
+      "Vol.": "3.65M"
+    },
+    {
+      "Chg. %": "+0.77%",
+      "High": 333.82,
+      "Last": 333.0,
+      "Low": 330.33,
+      "Name": "Accenture",
+      "Time": "05/04",
+      "Vol.": "3.58M"
+    },
+    {
+      "Chg. %": "+3.09%",
+      "High": 637.91,
+      "Last": 636.18,
+      "Low": 622.71,
+      "Name": "Netflix",
+      "Time": "05/04",
+      "Vol.": "3.32M"
+    },
+    {
+      "Chg. %": "+0.05%",
+      "High": 359.33,
+      "Last": 357.87,
+      "Low": 356.02,
+      "Name": "Home Depot",
+      "Time": "05/04",
+      "Vol.": "3.24M"
+    },
+    {
+      "Chg. %": "+4.85%",
+      "High": 313.07,
+      "Last": 310.31,
+      "Low": 298.68,
+      "Name": "Spotify Tech",
+      "Time": "05/04",
+      "Vol.": "2.83M"
+    },
+    {
+      "Chg. %": "+0.79%",
+      "High": 419.27,
+      "Last": 418.62,
+      "Low": 415.41,
+      "Name": "Berkshire Hathaway B",
+      "Time": "05/04",
+      "Vol.": "2.73M"
+    },
+    {
+      "Chg. %": "+3.23%",
+      "High": 331.47,
+      "Last": 330.51,
+      "Low": 322.79,
+      "Name": "Eaton",
+      "Time": "05/04",
+      "Vol.": "2.63M"
+    },
+    {
+      "Chg. %": "+1.57%",
+      "High": 479.31,
+      "Last": 477.15,
+      "Low": 472.53,
+      "Name": "Mastercard",
+      "Time": "05/04",
+      "Vol.": "2.46M"
+    },
+    {
+      "Chg. %": "-10.92%",
+      "High": 1674.25,
+      "Last": 1439.0,
+      "Low": 1432.0,
+      "Name": "MicroStrategy",
+      "Time": "05/04",
+      "Vol.": "2.2M"
+    },
+    {
+      "Chg. %": "+2.10%",
+      "High": 786.71,
+      "Last": 784.21,
+      "Low": 763.09,
+      "Name": "Eli Lilly",
+      "Time": "05/04",
+      "Vol.": "2.1M"
+    },
+    {
+      "Chg. %": "+1.66%",
+      "High": 1361.23,
+      "Last": 1339.43,
+      "Low": 1314.19,
+      "Name": "Broadcom",
+      "Time": "05/04",
+      "Vol.": "1.93M"
+    },
+    {
+      "Chg. %": "+1.25%",
+      "High": 716.89,
+      "Last": 713.72,
+      "Low": 706.02,
+      "Name": "Costco",
+      "Time": "05/04",
+      "Vol.": "1.53M"
+    },
+    {
+      "Chg. %": "+3.44%",
+      "High": 791.88,
+      "Last": 783.59,
+      "Low": 760.04,
+      "Name": "ServiceNow Inc",
+      "Time": "05/04",
+      "Vol.": "1.18M"
+    },
+    {
+      "Chg. %": "+2.27%",
+      "High": 3610.48,
+      "Last": 3601.9,
+      "Low": 3530.0,
+      "Name": "Booking",
+      "Time": "05/04",
+      "Vol.": "252.56K"
+    },
+    {
+      "Chg. %": "+0.45%",
+      "High": 633809.0,
+      "Last": 631255.0,
+      "Low": 626391.0,
+      "Name": "Berkshire Hathaway A",
+      "Time": "05/04",
+      "Vol.": "13.26K"
+    }
+  ],
+  "message": "Success!",
+  "status": 200
+}

@@ -1,0 +1,456 @@
+{
+  "data": [
+    {
+      "Chg. %": "+177.14%",
+      "High": 6.86,
+      "Last": 3.88,
+      "Low": 2.26,
+      "Name": "Mediaco Holding",
+      "Time": "05/04",
+      "Vol.": "116.93M"
+    },
+    {
+      "Chg. %": "+48.08%",
+      "High": 1.89,
+      "Last": 1.54,
+      "Low": 1.3,
+      "Name": "Hub Cyber Security",
+      "Time": "05/04",
+      "Vol.": "93.26M"
+    },
+    {
+      "Chg. %": "+37.14%",
+      "High": 0.345,
+      "Last": 0.288,
+      "Low": 0.2352,
+      "Name": "Supercom",
+      "Time": "05/04",
+      "Vol.": "87.2M"
+    },
+    {
+      "Chg. %": "+140.54%",
+      "High": 4.31,
+      "Last": 3.56,
+      "Low": 1.62,
+      "Name": "22nd Century",
+      "Time": "05/04",
+      "Vol.": "71.75M"
+    },
+    {
+      "Chg. %": "+25.52%",
+      "High": 0.187,
+      "Last": 0.182,
+      "Low": 0.1373,
+      "Name": "Trio Petroleum",
+      "Time": "05/04",
+      "Vol.": "30.52M"
+    },
+    {
+      "Chg. %": "+12.63%",
+      "High": 0.04,
+      "Last": 0.03,
+      "Low": 0.03,
+      "Name": "Next eGO BV",
+      "Time": "05/04",
+      "Vol.": "30.23M"
+    },
+    {
+      "Chg. %": "+40.49%",
+      "High": 11.9,
+      "Last": 8.05,
+      "Low": 7.5,
+      "Name": "GCT Semiconductor Holding",
+      "Time": "05/04",
+      "Vol.": "28.4M"
+    },
+    {
+      "Chg. %": "+21.19%",
+      "High": 1.91,
+      "Last": 1.83,
+      "Low": 1.55,
+      "Name": "Ocugen",
+      "Time": "05/04",
+      "Vol.": "20.51M"
+    },
+    {
+      "Chg. %": "+15.42%",
+      "High": 0.2355,
+      "Last": 0.232,
+      "Low": 0.198,
+      "Name": "Camber Energy Inc",
+      "Time": "05/04",
+      "Vol.": "15.18M"
+    },
+    {
+      "Chg. %": "+15.95%",
+      "High": 3.67,
+      "Last": 2.69,
+      "Low": 2.5,
+      "Name": "EHome Household Service Holdings",
+      "Time": "05/04",
+      "Vol.": "9.73M"
+    },
+    {
+      "Chg. %": "+75.91%",
+      "High": 75.79,
+      "Last": 59.0,
+      "Low": 40.02,
+      "Name": "Destiny Tech100",
+      "Time": "05/04",
+      "Vol.": "5.68M"
+    },
+    {
+      "Chg. %": "+81.05%",
+      "High": 10.41,
+      "Last": 7.74,
+      "Low": 4.44,
+      "Name": "Better Choice",
+      "Time": "05/04",
+      "Vol.": "5.06M"
+    },
+    {
+      "Chg. %": "+18.80%",
+      "High": 0.792,
+      "Last": 0.772,
+      "Low": 0.6,
+      "Name": "Origin Materials",
+      "Time": "05/04",
+      "Vol.": "4.77M"
+    },
+    {
+      "Chg. %": "+13.91%",
+      "High": 1.34,
+      "Last": 1.31,
+      "Low": 1.03,
+      "Name": "MSP Recovery",
+      "Time": "05/04",
+      "Vol.": "4.17M"
+    },
+    {
+      "Chg. %": "+18.58%",
+      "High": 0.76,
+      "Last": 0.6898,
+      "Low": 0.5798,
+      "Name": "Golden Minerals",
+      "Time": "05/04",
+      "Vol.": "2.46M"
+    },
+    {
+      "Chg. %": "+18.59%",
+      "High": 0.29,
+      "Last": 0.275,
+      "Low": 0.2152,
+      "Name": "Enservco Co",
+      "Time": "05/04",
+      "Vol.": "2.37M"
+    },
+    {
+      "Chg. %": "+15.12%",
+      "High": 3.9,
+      "Last": 3.73,
+      "Low": 3.24,
+      "Name": "Blade Air Mobility",
+      "Time": "05/04",
+      "Vol.": "2.02M"
+    },
+    {
+      "Chg. %": "+20.15%",
+      "High": 0.465,
+      "Last": 0.35,
+      "Low": 0.288,
+      "Name": "Signing Day Sports",
+      "Time": "05/04",
+      "Vol.": "2M"
+    },
+    {
+      "Chg. %": "+16.91%",
+      "High": 8.7,
+      "Last": 6.43,
+      "Low": 6.0,
+      "Name": "DigiAsia",
+      "Time": "05/04",
+      "Vol.": "1.92M"
+    },
+    {
+      "Chg. %": "+18.59%",
+      "High": 2.39,
+      "Last": 2.36,
+      "Low": 1.825,
+      "Name": "Forge Global Holdings",
+      "Time": "05/04",
+      "Vol.": "1.88M"
+    },
+    {
+      "Chg. %": "+23.36%",
+      "High": 0.75,
+      "Last": 0.71,
+      "Low": 0.58,
+      "Name": "Erayak Power Solution",
+      "Time": "05/04",
+      "Vol.": "1.71M"
+    },
+    {
+      "Chg. %": "+27.46%",
+      "High": 2.62,
+      "Last": 2.46,
+      "Low": 1.86,
+      "Name": "Palladyne AI",
+      "Time": "05/04",
+      "Vol.": "1.63M"
+    },
+    {
+      "Chg. %": "+16.42%",
+      "High": 1.9,
+      "Last": 1.56,
+      "Low": 1.34,
+      "Name": "Mink Therapeutics",
+      "Time": "05/04",
+      "Vol.": "1.52M"
+    },
+    {
+      "Chg. %": "+14.20%",
+      "High": 2.23,
+      "Last": 1.93,
+      "Low": 1.7,
+      "Name": "SHENGFENG DEVELOPMENT",
+      "Time": "05/04",
+      "Vol.": "1.19M"
+    },
+    {
+      "Chg. %": "+16.88%",
+      "High": 83.81,
+      "Last": 82.9,
+      "Low": 70.2,
+      "Name": "Root",
+      "Time": "05/04",
+      "Vol.": "1.07M"
+    },
+    {
+      "Chg. %": "+57.69%",
+      "High": 1.79,
+      "Last": 1.64,
+      "Low": 1.01,
+      "Name": "Globavend Holdings",
+      "Time": "05/04",
+      "Vol.": "941.5K"
+    },
+    {
+      "Chg. %": "+24.33%",
+      "High": 3.74,
+      "Last": 3.73,
+      "Low": 2.98,
+      "Name": "Galectin",
+      "Time": "05/04",
+      "Vol.": "920.8K"
+    },
+    {
+      "Chg. %": "+20.26%",
+      "High": 2.94,
+      "Last": 2.79,
+      "Low": 2.3,
+      "Name": "Processa Pharmaceuticals",
+      "Time": "05/04",
+      "Vol.": "901.37K"
+    },
+    {
+      "Chg. %": "+26.47%",
+      "High": 0.47,
+      "Last": 0.43,
+      "Low": 0.352,
+      "Name": "CXApp Wnt",
+      "Time": "05/04",
+      "Vol.": "884.46K"
+    },
+    {
+      "Chg. %": "+13.56%",
+      "High": 3.43,
+      "Last": 3.35,
+      "Low": 2.93,
+      "Name": "Solidion Tech",
+      "Time": "05/04",
+      "Vol.": "882.18K"
+    },
+    {
+      "Chg. %": "+27.55%",
+      "High": 3.41,
+      "Last": 3.38,
+      "Low": 2.67,
+      "Name": "CCSC Technology International",
+      "Time": "05/04",
+      "Vol.": "806.29K"
+    },
+    {
+      "Chg. %": "+37.09%",
+      "High": 0.055,
+      "Last": 0.055,
+      "Low": 0.031,
+      "Name": "Origin Materials Wnt",
+      "Time": "05/04",
+      "Vol.": "703.08K"
+    },
+    {
+      "Chg. %": "+24.66%",
+      "High": 1.09,
+      "Last": 1.06,
+      "Low": 0.85,
+      "Name": "Marti Technologies",
+      "Time": "05/04",
+      "Vol.": "673.85K"
+    },
+    {
+      "Chg. %": "+24.40%",
+      "High": 0.5,
+      "Last": 0.49,
+      "Low": 0.4,
+      "Name": "GlucoTrack",
+      "Time": "05/04",
+      "Vol.": "586.39K"
+    },
+    {
+      "Chg. %": "+15.81%",
+      "High": 2.58,
+      "Last": 2.49,
+      "Low": 2.2,
+      "Name": "Nexalin Technology",
+      "Time": "05/04",
+      "Vol.": "523.37K"
+    },
+    {
+      "Chg. %": "+25.22%",
+      "High": 2.9,
+      "Last": 2.83,
+      "Low": 2.25,
+      "Name": "1847 Holdings LLC",
+      "Time": "05/04",
+      "Vol.": "381.63K"
+    },
+    {
+      "Chg. %": "+13.47%",
+      "High": 2.8,
+      "Last": 2.78,
+      "Low": 2.42,
+      "Name": "Dakota Gold",
+      "Time": "05/04",
+      "Vol.": "317.73K"
+    },
+    {
+      "Chg. %": "+29.75%",
+      "High": 13.66,
+      "Last": 13.65,
+      "Low": 13.2,
+      "Name": "Grindrod Shipping",
+      "Time": "05/04",
+      "Vol.": "287.56K"
+    },
+    {
+      "Chg. %": "+28.82%",
+      "High": 0.72,
+      "Last": 0.7,
+      "Low": 0.54,
+      "Name": "Collective Audience",
+      "Time": "05/04",
+      "Vol.": "267.75K"
+    },
+    {
+      "Chg. %": "+18.89%",
+      "High": 2.15,
+      "Last": 2.14,
+      "Low": 1.81,
+      "Name": "Connect Biopharma Holdings",
+      "Time": "05/04",
+      "Vol.": "203.87K"
+    },
+    {
+      "Chg. %": "+17.27%",
+      "High": 1.65,
+      "Last": 1.63,
+      "Low": 1.42,
+      "Name": "Imunon",
+      "Time": "05/04",
+      "Vol.": "167.82K"
+    },
+    {
+      "Chg. %": "+14.02%",
+      "High": 14.93,
+      "Last": 14.48,
+      "Low": 12.85,
+      "Name": "Neuropace",
+      "Time": "05/04",
+      "Vol.": "125.02K"
+    },
+    {
+      "Chg. %": "+17.69%",
+      "High": 9.02,
+      "Last": 8.85,
+      "Low": 7.42,
+      "Name": "Elicio Therapeutics",
+      "Time": "05/04",
+      "Vol.": "95.21K"
+    },
+    {
+      "Chg. %": "+12.95%",
+      "High": 7.21,
+      "Last": 6.89,
+      "Low": 6.2,
+      "Name": "Intellinetics",
+      "Time": "05/04",
+      "Vol.": "43.68K"
+    },
+    {
+      "Chg. %": "+22.37%",
+      "High": 8.485,
+      "Last": 7.795,
+      "Low": 6.54,
+      "Name": "Two",
+      "Time": "05/04",
+      "Vol.": "33.4K"
+    },
+    {
+      "Chg. %": "+21.05%",
+      "High": 2.97,
+      "Last": 2.76,
+      "Low": 2.1,
+      "Name": "Brenmiller Energy",
+      "Time": "05/04",
+      "Vol.": "28.58K"
+    },
+    {
+      "Chg. %": "+20.67%",
+      "High": 16.5,
+      "Last": 14.13,
+      "Low": 12.15,
+      "Name": "Arrowroot Acquisition",
+      "Time": "05/04",
+      "Vol.": "9.89K"
+    },
+    {
+      "Chg. %": "+15.57%",
+      "High": 0.048,
+      "Last": 0.048,
+      "Low": 0.048,
+      "Name": "Siyata Mobile",
+      "Time": "05/04",
+      "Vol.": "100"
+    },
+    {
+      "Chg. %": "+20.15%",
+      "High": 13.18,
+      "Last": 13.18,
+      "Low": 11.8,
+      "Name": "Arrowroot Acquisition",
+      "Time": "05/04",
+      "Vol.": "65"
+    },
+    {
+      "Chg. %": "+33.36%",
+      "High": 0.48,
+      "Last": 0.48,
+      "Low": 0.48,
+      "Name": "Biomx Inc",
+      "Time": "05/04",
+      "Vol.": "35"
+    }
+  ],
+  "message": "Success!",
+  "status": 200
+}

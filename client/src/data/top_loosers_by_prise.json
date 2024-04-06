@@ -1,0 +1,456 @@
+{
+  "data": [
+    {
+      "Chg. %": "-18.25%",
+      "High": 0.04,
+      "Last": 0.033,
+      "Low": 0.032,
+      "Name": "Gamida Cell",
+      "Time": "05/04",
+      "Vol.": "19.05M"
+    },
+    {
+      "Chg. %": "-31.12%",
+      "High": 0.08,
+      "Last": 0.0551,
+      "Low": 0.055,
+      "Name": "Selina",
+      "Time": "05/04",
+      "Vol.": "14.16M"
+    },
+    {
+      "Chg. %": "-15.29%",
+      "High": 0.67,
+      "Last": 0.589,
+      "Low": 0.5452,
+      "Name": "KULR Technology Group",
+      "Time": "05/04",
+      "Vol.": "11.84M"
+    },
+    {
+      "Chg. %": "-10.91%",
+      "High": 0.56,
+      "Last": 0.49,
+      "Low": 0.48,
+      "Name": "Microvast Holdings",
+      "Time": "05/04",
+      "Vol.": "11.34M"
+    },
+    {
+      "Chg. %": "-10.95%",
+      "High": 2.31,
+      "Last": 1.87,
+      "Low": 1.6,
+      "Name": "Atossa Genetics",
+      "Time": "05/04",
+      "Vol.": "10.49M"
+    },
+    {
+      "Chg. %": "-12.28%",
+      "High": 0.0855,
+      "Last": 0.0786,
+      "Low": 0.076,
+      "Name": "Nutex Health",
+      "Time": "05/04",
+      "Vol.": "10.18M"
+    },
+    {
+      "Chg. %": "-12.05%",
+      "High": 45.74,
+      "Last": 40.59,
+      "Low": 40.0,
+      "Name": "Trump Media & Technology Group",
+      "Time": "05/04",
+      "Vol.": "5.69M"
+    },
+    {
+      "Chg. %": "-14.24%",
+      "High": 13.25,
+      "Last": 11.96,
+      "Low": 11.27,
+      "Name": "Ermenegildo Zegna NV",
+      "Time": "05/04",
+      "Vol.": "4.93M"
+    },
+    {
+      "Chg. %": "-16.41%",
+      "High": 0.4,
+      "Last": 0.326,
+      "Low": 0.321,
+      "Name": "Volcon",
+      "Time": "05/04",
+      "Vol.": "3.59M"
+    },
+    {
+      "Chg. %": "-29.55%",
+      "High": 0.869,
+      "Last": 0.62,
+      "Low": 0.6,
+      "Name": "Jiuzi Holdings",
+      "Time": "05/04",
+      "Vol.": "2.96M"
+    },
+    {
+      "Chg. %": "-30.18%",
+      "High": 18.0,
+      "Last": 11.45,
+      "Low": 10.0,
+      "Name": "Cazoo",
+      "Time": "05/04",
+      "Vol.": "2.71M"
+    },
+    {
+      "Chg. %": "-13.00%",
+      "High": 0.39,
+      "Last": 0.3393,
+      "Low": 0.32,
+      "Name": "Ontrak",
+      "Time": "05/04",
+      "Vol.": "2.52M"
+    },
+    {
+      "Chg. %": "-17.33%",
+      "High": 4.46,
+      "Last": 3.72,
+      "Low": 3.57,
+      "Name": "Tempest Therapeutics",
+      "Time": "05/04",
+      "Vol.": "2.49M"
+    },
+    {
+      "Chg. %": "-15.20%",
+      "High": 2.95,
+      "Last": 2.51,
+      "Low": 2.49,
+      "Name": "Effector Therapeutics",
+      "Time": "05/04",
+      "Vol.": "2.36M"
+    },
+    {
+      "Chg. %": "-10.92%",
+      "High": 1674.25,
+      "Last": 1439.0,
+      "Low": 1432.0,
+      "Name": "MicroStrategy",
+      "Time": "05/04",
+      "Vol.": "2.2M"
+    },
+    {
+      "Chg. %": "-11.41%",
+      "High": 3.76,
+      "Last": 2.95,
+      "Low": 2.85,
+      "Name": "Zapata Computing Holdings",
+      "Time": "05/04",
+      "Vol.": "2.02M"
+    },
+    {
+      "Chg. %": "-20.37%",
+      "High": 1.25,
+      "Last": 0.86,
+      "Low": 0.7518,
+      "Name": "Im Cannabis",
+      "Time": "05/04",
+      "Vol.": "1.55M"
+    },
+    {
+      "Chg. %": "-48.83%",
+      "High": 0.75,
+      "Last": 0.435,
+      "Low": 0.431,
+      "Name": "Semantix",
+      "Time": "05/04",
+      "Vol.": "1.39M"
+    },
+    {
+      "Chg. %": "-22.08%",
+      "High": 3.08,
+      "Last": 2.4,
+      "Low": 2.305,
+      "Name": "Allurion Tech",
+      "Time": "05/04",
+      "Vol.": "1.34M"
+    },
+    {
+      "Chg. %": "-30.87%",
+      "High": 2.0,
+      "Last": 1.59,
+      "Low": 1.33,
+      "Name": "HWH International",
+      "Time": "05/04",
+      "Vol.": "1.24M"
+    },
+    {
+      "Chg. %": "-26.84%",
+      "High": 3.83,
+      "Last": 2.78,
+      "Low": 2.42,
+      "Name": "XTI Aerospace",
+      "Time": "05/04",
+      "Vol.": "1.24M"
+    },
+    {
+      "Chg. %": "-11.09%",
+      "High": 5.995,
+      "Last": 5.69,
+      "Low": 5.11,
+      "Name": "VivoPower Intl",
+      "Time": "05/04",
+      "Vol.": "1.15M"
+    },
+    {
+      "Chg. %": "-13.66%",
+      "High": 0.9,
+      "Last": 0.76,
+      "Low": 0.74,
+      "Name": "Primech Holdings",
+      "Time": "05/04",
+      "Vol.": "1.05M"
+    },
+    {
+      "Chg. %": "-15.26%",
+      "High": 2.42,
+      "Last": 2.11,
+      "Low": 2.06,
+      "Name": "Ibio",
+      "Time": "05/04",
+      "Vol.": "1.04M"
+    },
+    {
+      "Chg. %": "-14.21%",
+      "High": 1.75,
+      "Last": 1.63,
+      "Low": 1.52,
+      "Name": "Brooge Holdings Ltd",
+      "Time": "05/04",
+      "Vol.": "971.14K"
+    },
+    {
+      "Chg. %": "-17.48%",
+      "High": 2.25,
+      "Last": 1.7,
+      "Low": 1.5,
+      "Name": "Neurosense Therapeutics",
+      "Time": "05/04",
+      "Vol.": "878.24K"
+    },
+    {
+      "Chg. %": "-13.90%",
+      "High": 0.89,
+      "Last": 0.8,
+      "Low": 0.77,
+      "Name": "Onemednet",
+      "Time": "05/04",
+      "Vol.": "581.5K"
+    },
+    {
+      "Chg. %": "-15.79%",
+      "High": 13.9775,
+      "Last": 8.05,
+      "Low": 7.49,
+      "Name": "Dogness A",
+      "Time": "05/04",
+      "Vol.": "512.56K"
+    },
+    {
+      "Chg. %": "-14.12%",
+      "High": 3.44,
+      "Last": 2.92,
+      "Low": 2.84,
+      "Name": "Tevogen Bio Holdings",
+      "Time": "05/04",
+      "Vol.": "503.65K"
+    },
+    {
+      "Chg. %": "-10.87%",
+      "High": 0.579,
+      "Last": 0.5,
+      "Low": 0.451,
+      "Name": "Sequans Communications",
+      "Time": "05/04",
+      "Vol.": "445.99K"
+    },
+    {
+      "Chg. %": "-15.14%",
+      "High": 0.23,
+      "Last": 0.18,
+      "Low": 0.18,
+      "Name": "Utime",
+      "Time": "05/04",
+      "Vol.": "386.55K"
+    },
+    {
+      "Chg. %": "-19.64%",
+      "High": 1.621,
+      "Last": 1.35,
+      "Low": 1.31,
+      "Name": "Acorda",
+      "Time": "05/04",
+      "Vol.": "355.87K"
+    },
+    {
+      "Chg. %": "-15.60%",
+      "High": 4.32,
+      "Last": 3.68,
+      "Low": 3.61,
+      "Name": "Journey Medical",
+      "Time": "05/04",
+      "Vol.": "313.02K"
+    },
+    {
+      "Chg. %": "-13.92%",
+      "High": 28.0,
+      "Last": 25.05,
+      "Low": 24.43,
+      "Name": "Aerovate Therapeutics",
+      "Time": "05/04",
+      "Vol.": "246.22K"
+    },
+    {
+      "Chg. %": "-11.99%",
+      "High": 16.5,
+      "Last": 13.31,
+      "Low": 13.19,
+      "Name": "Cartesian Therapeutics",
+      "Time": "05/04",
+      "Vol.": "242.35K"
+    },
+    {
+      "Chg. %": "-17.45%",
+      "High": 0.4,
+      "Last": 0.33,
+      "Low": 0.33,
+      "Name": "Focus Universal",
+      "Time": "05/04",
+      "Vol.": "237.26K"
+    },
+    {
+      "Chg. %": "-13.12%",
+      "High": 5.45,
+      "Last": 4.7,
+      "Low": 4.7,
+      "Name": "U Power",
+      "Time": "05/04",
+      "Vol.": "230.12K"
+    },
+    {
+      "Chg. %": "-12.47%",
+      "High": 9.71,
+      "Last": 8.21,
+      "Low": 8.06,
+      "Name": "XBiotech Inc",
+      "Time": "05/04",
+      "Vol.": "131.51K"
+    },
+    {
+      "Chg. %": "-22.71%",
+      "High": 10.35,
+      "Last": 8.0,
+      "Low": 7.9,
+      "Name": "Aptorum A",
+      "Time": "05/04",
+      "Vol.": "125.3K"
+    },
+    {
+      "Chg. %": "-19.00%",
+      "High": 4.94,
+      "Last": 3.71,
+      "Low": 3.69,
+      "Name": "Neximmune",
+      "Time": "05/04",
+      "Vol.": "85.48K"
+    },
+    {
+      "Chg. %": "-12.56%",
+      "High": 2.8227,
+      "Last": 2.492,
+      "Low": 2.4,
+      "Name": "ETAO International",
+      "Time": "05/04",
+      "Vol.": "61.35K"
+    },
+    {
+      "Chg. %": "-11.07%",
+      "High": 12.83,
+      "Last": 11.41,
+      "Low": 11.41,
+      "Name": "Critical Metals Corp",
+      "Time": "05/04",
+      "Vol.": "47.88K"
+    },
+    {
+      "Chg. %": "-11.39%",
+      "High": 4.0,
+      "Last": 3.5,
+      "Low": 3.2705,
+      "Name": "Cemtrex",
+      "Time": "05/04",
+      "Vol.": "38.96K"
+    },
+    {
+      "Chg. %": "-12.05%",
+      "High": 10.5,
+      "Last": 9.49,
+      "Low": 9.48,
+      "Name": "LAMF Global Ventures I",
+      "Time": "05/04",
+      "Vol.": "27.75K"
+    },
+    {
+      "Chg. %": "-11.47%",
+      "High": 0.063,
+      "Last": 0.061,
+      "Low": 0.06,
+      "Name": "Aeva Technologies Wnt",
+      "Time": "05/04",
+      "Vol.": "17.35K"
+    },
+    {
+      "Chg. %": "-28.34%",
+      "High": 0.03,
+      "Last": 0.0177,
+      "Low": 0.0176,
+      "Name": "Hippo Holdings",
+      "Time": "05/04",
+      "Vol.": "12K"
+    },
+    {
+      "Chg. %": "-11.11%",
+      "High": 0.0452,
+      "Last": 0.04,
+      "Low": 0.04,
+      "Name": "Oxbridge Re Holdings Equity Warrant",
+      "Time": "05/04",
+      "Vol.": "8K"
+    },
+    {
+      "Chg. %": "-17.00%",
+      "High": 11.06,
+      "Last": 8.35,
+      "Low": 7.65,
+      "Name": "Adlai Nortye ADR",
+      "Time": "05/04",
+      "Vol.": "7.81K"
+    },
+    {
+      "Chg. %": "-10.85%",
+      "High": 4.69,
+      "Last": 4.19,
+      "Low": 4.19,
+      "Name": "Mind Technology",
+      "Time": "05/04",
+      "Vol.": "6.33K"
+    },
+    {
+      "Chg. %": "-23.85%",
+      "High": 9.09,
+      "Last": 8.3,
+      "Low": 8.3,
+      "Name": "LAMF Global Ventures I Unt",
+      "Time": "05/04",
+      "Vol.": "120"
+    }
+  ],
+  "message": "Success!",
+  "status": 200
+}
