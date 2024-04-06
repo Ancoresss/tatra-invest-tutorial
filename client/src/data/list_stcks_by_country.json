@@ -1,0 +1,713 @@
+{
+  "data": {
+    "count": 4634,
+    "limit": 100,
+    "next": "/stock/list-stock-by-country?start=101&limit=100",
+    "previous": "",
+    "results": [
+      {
+        "currency": "USD",
+        "full_name": "Boeing Co",
+        "isin": "US0970231058",
+        "name": "Boeing",
+        "symbol": "BA"
+      },
+      {
+        "currency": "USD",
+        "full_name": "General Motors Company",
+        "isin": "US37045V1008",
+        "name": "General Motors",
+        "symbol": "GM"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Chevron Corp",
+        "isin": "US1667641005",
+        "name": "Chevron",
+        "symbol": "CVX"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Citigroup Inc",
+        "isin": "US1729674242",
+        "name": "Citigroup",
+        "symbol": "C"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Bank of America Corp",
+        "isin": "US0605051046",
+        "name": "Bank of America",
+        "symbol": "BAC"
+      },
+      {
+        "currency": "USD",
+        "full_name": "AT&T Inc",
+        "isin": "US00206R1023",
+        "name": "AT&T",
+        "symbol": "T"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Caterpillar Inc",
+        "isin": "US1491231015",
+        "name": "Caterpillar",
+        "symbol": "CAT"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Intel Corporation",
+        "isin": "US4581401001",
+        "name": "Intel",
+        "symbol": "INTC"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Microsoft Corporation",
+        "isin": "US5949181045",
+        "name": "Microsoft",
+        "symbol": "MSFT"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Alcoa Corp",
+        "isin": "US0138721065",
+        "name": "Alcoa",
+        "symbol": "AA"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Ford Motor Company",
+        "isin": "US3453708600",
+        "name": "Ford Motor",
+        "symbol": "F"
+      },
+      {
+        "currency": "USD",
+        "full_name": "eBay Inc",
+        "isin": "US2786421030",
+        "name": "eBay",
+        "symbol": "EBAY"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Dell Technologies Inc",
+        "isin": "US24703L2025",
+        "name": "Dell Tech",
+        "symbol": "DELL"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Walt Disney Company",
+        "isin": "US2546871060",
+        "name": "Walt Disney",
+        "symbol": "DIS"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Dow Inc",
+        "isin": "US2605571031",
+        "name": "Dow",
+        "symbol": "DOW"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Cisco Systems Inc",
+        "isin": "US17275R1023",
+        "name": "Cisco",
+        "symbol": "CSCO"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Deere & Company",
+        "isin": "US2441991054",
+        "name": "Deere&Company",
+        "symbol": "DE"
+      },
+      {
+        "currency": "USD",
+        "full_name": "FedEx Corporation",
+        "isin": "US31428X1063",
+        "name": "FedEx",
+        "symbol": "FDX"
+      },
+      {
+        "currency": "USD",
+        "full_name": "General Mills Inc",
+        "isin": "US3703341046",
+        "name": "General Mills",
+        "symbol": "GIS"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Corning Incorporated",
+        "isin": "US2193501051",
+        "name": "Corning",
+        "symbol": "GLW"
+      },
+      {
+        "currency": "USD",
+        "full_name": "The Goodyear Tire & Rubber Company",
+        "isin": "US3825501014",
+        "name": "The Goodyear Tire&Rubber",
+        "symbol": "GT"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Goldman Sachs Group Inc",
+        "isin": "US38141G1040",
+        "name": "Goldman Sachs",
+        "symbol": "GS"
+      },
+      {
+        "currency": "USD",
+        "full_name": "JPMorgan Chase & Co",
+        "isin": "US46625H1005",
+        "name": "JPMorgan",
+        "symbol": "JPM"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Kimberly-Clark Corporation",
+        "isin": "US4943681035",
+        "name": "Kimberly-Clark",
+        "symbol": "KMB"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Kraft Heinz Co",
+        "isin": "US5007541064",
+        "name": "Kraft Heinz",
+        "symbol": "KHC"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Coca-Cola Company",
+        "isin": "US1912161007",
+        "name": "Coca-Cola",
+        "symbol": "KO"
+      },
+      {
+        "currency": "USD",
+        "full_name": "McDonald’s Corporation",
+        "isin": "US5801351017",
+        "name": "McDonald’s",
+        "symbol": "MCD"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Eli Lilly and Company",
+        "isin": "US5324571083",
+        "name": "Eli Lilly",
+        "symbol": "LLY"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Oracle Corporation",
+        "isin": "US68389X1054",
+        "name": "Oracle",
+        "symbol": "ORCL"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Merck & Company Inc",
+        "isin": "US58933Y1055",
+        "name": "Merck&Co",
+        "symbol": "MRK"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Motorola Solutions Inc",
+        "isin": "US6200763075",
+        "name": "Motorola",
+        "symbol": "MSI"
+      },
+      {
+        "currency": "USD",
+        "full_name": "3M Company",
+        "isin": "US88579Y1010",
+        "name": "3M",
+        "symbol": "MMM"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Office Depot Inc",
+        "isin": "US6762201068",
+        "name": "Office Depot",
+        "symbol": "ODP"
+      },
+      {
+        "currency": "USD",
+        "full_name": "McKesson Europe AG",
+        "isin": "DE000CLS1001",
+        "name": "McKesson Europe",
+        "symbol": "CAKFF"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Puma SE",
+        "isin": "DE0006969603",
+        "name": "Puma SE",
+        "symbol": "PMMAF"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Vertex Pharmaceuticals Inc",
+        "isin": "US92532F1003",
+        "name": "Vertex",
+        "symbol": "VRTX"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Monster Beverage Corp",
+        "isin": "US61174X1090",
+        "name": "Monster Beverage",
+        "symbol": "MNST"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Teva Pharma Industries Ltd ADR",
+        "isin": "US8816242098",
+        "name": "Teva ADR",
+        "symbol": "TEVA"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Fifth Third Bancorp",
+        "isin": "US3167731005",
+        "name": "Fifth Third",
+        "symbol": "FITB"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Sears Holdings Corp",
+        "isin": "US8123501061",
+        "name": "Sears",
+        "symbol": "SHLDQ"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Cintas Corporation",
+        "isin": "US1729081059",
+        "name": "Cintas",
+        "symbol": "CTAS"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Autodesk Inc",
+        "isin": "US0527691069",
+        "name": "Autodesk",
+        "symbol": "ADSK"
+      },
+      {
+        "currency": "USD",
+        "full_name": "DISH Network Corporation",
+        "isin": "US25470M1099",
+        "name": "DISH Network",
+        "symbol": "DISH"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Gilead Sciences Inc",
+        "isin": "US3755581036",
+        "name": "Gilead",
+        "symbol": "GILD"
+      },
+      {
+        "currency": "USD",
+        "full_name": "aTyr Pharma Inc",
+        "isin": "US0021202025",
+        "name": "aTyr Pharma",
+        "symbol": "LIFE"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Alphabet Inc Class A",
+        "isin": "US02079K3059",
+        "name": "Alphabet A",
+        "symbol": "GOOGL"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Fiserv Inc",
+        "isin": "US3377381088",
+        "name": "Fiserv",
+        "symbol": "FISV"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Liberty Global PLC",
+        "isin": "GB00B8W67662",
+        "name": "Liberty Global",
+        "symbol": "LBTYA"
+      },
+      {
+        "currency": "USD",
+        "full_name": "PDL BioPharma Inc",
+        "isin": "US69329Y1047",
+        "name": "PDL BioPharma",
+        "symbol": "PDLI"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Adobe Systems Incorporated",
+        "isin": "US00724F1012",
+        "name": "Adobe",
+        "symbol": "ADBE"
+      },
+      {
+        "currency": "USD",
+        "full_name": "BlackBerry Ltd",
+        "isin": "CA09228F1036",
+        "name": "BlackBerry",
+        "symbol": "BB"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Qualcomm Incorporated",
+        "isin": "US7475251036",
+        "name": "Qualcomm",
+        "symbol": "QCOM"
+      },
+      {
+        "currency": "USD",
+        "full_name": "SINA Corp",
+        "isin": "KYG814771047",
+        "name": "SINA Corp",
+        "symbol": "SINA"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Baidu Inc",
+        "isin": "US0567521085",
+        "name": "Baidu",
+        "symbol": "BIDU"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Sohu.Com Inc",
+        "isin": "US83410S1087",
+        "name": "Sohu.Com",
+        "symbol": "SOHU"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Discovery Inc Class A",
+        "isin": "US25470F1049",
+        "name": "Discovery A",
+        "symbol": "DISCA"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Ribbon Communications Inc",
+        "isin": "US7625441040",
+        "name": "Ribbon Com",
+        "symbol": "RBBN"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Applied Materials Inc",
+        "isin": "US0382221051",
+        "name": "Applied Materials",
+        "symbol": "AMAT"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Steel Dynamics Inc",
+        "isin": "US8581191009",
+        "name": "Steel Dynamics",
+        "symbol": "STLD"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Cadence Design Systems Inc",
+        "isin": "US1273871087",
+        "name": "Cadence Design",
+        "symbol": "CDNS"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Bed Bath & Beyond Inc",
+        "isin": "US0758961009",
+        "name": "Bed Bath&Beyond",
+        "symbol": "BBBY"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Microchip Technology Inc",
+        "isin": "US5950171042",
+        "name": "Microchip",
+        "symbol": "MCHP"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Wynn Resorts Limited",
+        "isin": "US9831341071",
+        "name": "Wynn Resorts",
+        "symbol": "WYNN"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Intuitive Surgical Inc",
+        "isin": "US46120E6023",
+        "name": "Intuitive Surgical",
+        "symbol": "ISRG"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Nasdaq Inc",
+        "isin": "US6311031081",
+        "name": "Nasdaq Inc",
+        "symbol": "NDAQ"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Ryanair Holdings PLC ADR",
+        "isin": "US7835132033",
+        "name": "Ryanair ADR",
+        "symbol": "RYAAY"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Apollo Bancorp Inc",
+        "isin": "US03759W1062",
+        "name": "Apollo Bancorp",
+        "symbol": "APLO"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Infosys Ltd ADR",
+        "isin": "US4567881085",
+        "name": "Infosys ADR",
+        "symbol": "INFY"
+      },
+      {
+        "currency": "USD",
+        "full_name": "JetBlue Airways Corp",
+        "isin": "US4771431016",
+        "name": "JetBlue",
+        "symbol": "JBLU"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Spartan Motors Inc",
+        "isin": "US8468191007",
+        "name": "Spartan Motors",
+        "symbol": "SPAR"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Henry Schein Inc",
+        "isin": "US8064071025",
+        "name": "Henry Schein",
+        "symbol": "HSIC"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Paychex Inc",
+        "isin": "US7043261079",
+        "name": "Paychex",
+        "symbol": "PAYX"
+      },
+      {
+        "currency": "USD",
+        "full_name": "VeriSign Inc",
+        "isin": "US92343E1029",
+        "name": "VeriSign",
+        "symbol": "VRSN"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Apple Inc",
+        "isin": "US0378331005",
+        "name": "Apple",
+        "symbol": "AAPL"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Fastenal Company",
+        "isin": "US3119001044",
+        "name": "Fastenal",
+        "symbol": "FAST"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Dentsply Sirona Inc",
+        "isin": "US24906P1093",
+        "name": "Dentsply",
+        "symbol": "XRAY"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Crocs Inc",
+        "isin": "US2270461096",
+        "name": "Crocs",
+        "symbol": "CROX"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Zions Bancorporation",
+        "isin": "US9897011071",
+        "name": "Zions",
+        "symbol": "ZION"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Northern Trust Corporation",
+        "isin": "US6658591044",
+        "name": "Northern Trust",
+        "symbol": "NTRS"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Citrix Systems Inc",
+        "isin": "US1773761002",
+        "name": "Citrix Systems",
+        "symbol": "CTXS"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Lamar Advertising Company",
+        "isin": "US5128161099",
+        "name": "Lamar",
+        "symbol": "LAMR"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Patterson-UTI Energy Inc",
+        "isin": "US7034811015",
+        "name": "Patterson-UTI Energy",
+        "symbol": "PTEN"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Atlanticus Holdings Corporation",
+        "isin": "US04914Y1029",
+        "name": "Atlanticuss",
+        "symbol": "ATLC"
+      },
+      {
+        "currency": "USD",
+        "full_name": "CH Robinson Worldwide Inc",
+        "isin": "US12541W2098",
+        "name": "CH Robinson",
+        "symbol": "CHRW"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Sirius XM Holding Inc",
+        "isin": "US82968B1035",
+        "name": "Sirius XM",
+        "symbol": "SIRI"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Alpine Immune Sciences Inc",
+        "isin": "US02083G1004",
+        "name": "Alpine Immune Sciences",
+        "symbol": "ALPN"
+      },
+      {
+        "currency": "USD",
+        "full_name": "PACCAR Inc",
+        "isin": "US6937181088",
+        "name": "PACCAR",
+        "symbol": "PCAR"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Pan American Silver Corp",
+        "isin": "CA6979001089",
+        "name": "Pan American Silver",
+        "symbol": "PAAS"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Amazon.com Inc",
+        "isin": "US0231351067",
+        "name": "Amazon.com",
+        "symbol": "AMZN"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Ross Stores Inc",
+        "isin": "US7782961038",
+        "name": "Ross Stores",
+        "symbol": "ROST"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Viavi Solutions Inc",
+        "isin": "US9255501051",
+        "name": "Viavi Solutions",
+        "symbol": "VIAV"
+      },
+      {
+        "currency": "USD",
+        "full_name": "NetEase Inc",
+        "isin": "US64110W1027",
+        "name": "NetEase",
+        "symbol": "NTES"
+      },
+      {
+        "currency": "USD",
+        "full_name": "NetApp Inc",
+        "isin": "US64110D1046",
+        "name": "NetApp",
+        "symbol": "NTAP"
+      },
+      {
+        "currency": "USD",
+        "full_name": "E-TRADE Financial Corporation",
+        "isin": "US2692464017",
+        "name": "E-TRADE",
+        "symbol": "ETFC"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Garmin Ltd",
+        "isin": "CH0114405324",
+        "name": "Garmin",
+        "symbol": "GRMN"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Costco Wholesale Corp",
+        "isin": "US22160K1051",
+        "name": "Costco",
+        "symbol": "COST"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Check Point Software Technologies Ltd",
+        "isin": "IL0010824113",
+        "name": "Check Point Software",
+        "symbol": "CHKP"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Lam Research Corp",
+        "isin": "US5128071082",
+        "name": "Lam Research",
+        "symbol": "LRCX"
+      },
+      {
+        "currency": "USD",
+        "full_name": "Ciena Corp",
+        "isin": "US1717793095",
+        "name": "Ciena Corp",
+        "symbol": "CIEN"
+      },
+      {
+        "currency": "USD",
+        "full_name": "IAC/InterActiveCorp",
+        "isin": "US44919P5089",
+        "name": "IAC/InterActiveCorp",
+        "symbol": "IAC"
+      }
+    ],
+    "start": 1
+  },
+  "message": "Success!",
+  "status": 200
+}

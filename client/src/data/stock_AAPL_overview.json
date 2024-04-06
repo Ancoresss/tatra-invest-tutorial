@@ -1,0 +1,12 @@
+{
+    "data": {
+        "change": "+0.76",
+        "change%": "+0.45%",
+        "currency": "USD",
+        "name": "Apple Inc",
+        "price": "169.58",
+        "symbol": "AAPL"
+    },
+    "message": "Success!",
+    "status": 200
+}

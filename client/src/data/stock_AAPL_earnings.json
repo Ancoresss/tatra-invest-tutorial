@@ -1,0 +1,54 @@
+{
+  "data": [
+    {
+      "EPS": "--",
+      "EPS Forecast": "/ 1.33",
+      "Period End": "06/2024",
+      "Release Date": "Jul 24, 2024",
+      "Revenue": "--",
+      "Revenue Forecast": "/ 83.82B"
+    },
+    {
+      "EPS": "--",
+      "EPS Forecast": "/ 1.51",
+      "Period End": "03/2024",
+      "Release Date": "May 02, 2024",
+      "Revenue": "--",
+      "Revenue Forecast": "/ 90.97B"
+    },
+    {
+      "EPS": "2.18",
+      "EPS Forecast": "/ 2.1",
+      "Period End": "12/2023",
+      "Release Date": "Feb 01, 2024",
+      "Revenue": "119.58B",
+      "Revenue Forecast": "/ 118.06B"
+    },
+    {
+      "EPS": "1.46",
+      "EPS Forecast": "/ 1.39",
+      "Period End": "09/2023",
+      "Release Date": "Nov 02, 2023",
+      "Revenue": "89.5B",
+      "Revenue Forecast": "/ 89.31B"
+    },
+    {
+      "EPS": "1.26",
+      "EPS Forecast": "/ 1.19",
+      "Period End": "06/2023",
+      "Release Date": "Aug 03, 2023",
+      "Revenue": "81.8B",
+      "Revenue Forecast": "/ 81.73B"
+    },
+    {
+      "EPS": "1.52",
+      "EPS Forecast": "/ 1.43",
+      "Period End": "03/2023",
+      "Release Date": "May 04, 2023",
+      "Revenue": "94.8B",
+      "Revenue Forecast": "/ 92.9B"
+    }
+  ],
+  "message": "Success!",
+  "status": 200
+}
