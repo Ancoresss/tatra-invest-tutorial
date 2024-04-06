@@ -1,3 +1,5 @@
+"use client";
+
 import { cn } from "@/lib/utils";
 import { FC, HTMLAttributes } from "react";
 import { Card, CardHeader } from "./ui/card";
