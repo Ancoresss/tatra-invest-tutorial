@@ -25,11 +25,7 @@ export const Messages: FC<MessagesProps> = ({ className, ...props }) => {
   useScrollDown(containerRef, [messages]);
 
   return (
-    <div
-      ref={containerRef}
-      {...props}
-      className={cn("flex flex-col gap-4 overflow-y-auto", className)}
-    >
+    <div ref={containerRef} {...props} className={cn("flex flex-col gap-4 px-6", className)}>
       {messages.map((m) => (
         <Message key={m.text} message={m} />
       ))}

@@ -21,7 +21,7 @@ export default function Home() {
             <DashboardActions />
           </div>
         </div>
-        <Chat className="w-4/12 hidden"></Chat>
+        <Chat className="w-4/12"></Chat>
       </main>
     </OccupyRestWindowHeight>
   );
