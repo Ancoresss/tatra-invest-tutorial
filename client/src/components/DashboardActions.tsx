@@ -78,7 +78,7 @@ export default function DashboardActions() {
     }
 
     userStock.amount -= toSellValue;
-    
+
     profileInfo.setProfile({
       ...profileInfo.profileData,
       balance: profileInfo.profileData?.balance + dollarsAmount,
@@ -105,15 +105,17 @@ export default function DashboardActions() {
             : 0}
         </span>
       </div>
-      <Input
-        type="number"
-        onKeyDown={(e) =>
-          e.key === "Enter" && (transactionType === "buy" ? onBuyHandler() : onSellHandler())
-        }
-        onChange={(event) => setInput(event.target.value)}
-        value={inputVal}
-        placeholder={transactionType === "buy" ? "Amount in $" : "Amount in stock"}
-      />
+      <div data-buystock-1="top">
+        <Input
+          type="number"
+          onKeyDown={(e) =>
+            e.key === "Enter" && (transactionType === "buy" ? onBuyHandler() : onSellHandler())
+          }
+          onChange={(event) => setInput(event.target.value)}
+          value={inputVal}
+          placeholder={transactionType === "buy" ? "Amount in $" : "Amount in stock"}
+        />
+      </div>
       <div className="flex gap-4">
         <Button
           onClick={transactionType === "buy" ? onBuyHandler : onSellHandler}

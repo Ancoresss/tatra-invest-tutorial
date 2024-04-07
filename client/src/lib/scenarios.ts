@@ -2,7 +2,7 @@ import { IScenario } from "./types";
 
 export const scenarios: IScenario[] = [
   {
-    scenarioType: "buyStock",
+    scenarioType: "buystock",
     instructions: [
       {
         text: "Choose the stock from the list of the available stocks",
@@ -16,7 +16,7 @@ export const scenarios: IScenario[] = [
     ],
   },
   {
-    scenarioType: "buyStockDelay",
+    scenarioType: "buystockdelay",
     instructions: [
       {
         text: "Choose the stock from the list of the available stocks",
@@ -30,7 +30,7 @@ export const scenarios: IScenario[] = [
     ],
   },
   {
-    scenarioType: "sellStock",
+    scenarioType: "sellstock",
     instructions: [
       {
         text: "Choose the stock from the list of the bought stocks",
@@ -44,7 +44,7 @@ export const scenarios: IScenario[] = [
     ],
   },
   {
-    scenarioType: "sellStockDelay",
+    scenarioType: "sellstockdelay",
     instructions: [
       {
         text: "Choose the stock from the list of the bought stocks",
@@ -54,20 +54,6 @@ export const scenarios: IScenario[] = [
       },
       {
         text: "Click on the “Sell” button",
-      },
-    ],
-  },
-  {
-    scenarioType: "profileCheck",
-    instructions: [
-      {
-        text: "Open list of the bought stocks",
-      },
-      {
-        text: "Select those which should be analysed",
-      },
-      {
-        text: "Checked the calculated report",
       },
     ],
   },
