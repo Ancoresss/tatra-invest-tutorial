@@ -1,5 +1,13 @@
 import { IScenario } from "./types";
 
+export const scenarioNames: Record<string, string> = {
+  buystock: "Buy stock",
+  buystockdelay: "Buy stock with delay",
+  buystockdate: "Buy stock at date",
+  sellstock: "Sell stock",
+  sellstockdelay: "Sell stock with delay",
+};
+
 export const scenarios: IScenario[] = [
   {
     scenarioType: "buystock",

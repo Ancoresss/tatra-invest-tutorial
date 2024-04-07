@@ -11,7 +11,7 @@ export type SimpleStock = {
   amount: number;
   plannedAction?: {
     transactionType: "buy" | "sell";
-    type: "date" | "threshold";
+    type: "time" | "price";
     value: string;
     amount: number;
   };

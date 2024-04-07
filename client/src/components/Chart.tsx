@@ -70,8 +70,8 @@ export const Chart: FC<ChartProps> = ({}) => {
         datasets: [
           {
             label: "Stock data",
-            borderColor: "blue",
-            backgroundColor: "blue",
+            borderColor: "#253b79",
+            backgroundColor: "#253b79",
             data: data.map((item) => ({
               price: item.price,
               change: item.changePercent,

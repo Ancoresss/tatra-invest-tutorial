@@ -2,6 +2,7 @@ from fastapi import FastAPI, Request
 from fastapi.middleware.cors import CORSMiddleware
 from assistant.qa import generate_response_qa
 from assistant.question_generator import generate_response_questions
+from assistant.actions_generator import generate_actions
 
 app = FastAPI()
 app.add_middleware(
@@ -19,4 +20,5 @@ async def root(req: Request):
     message = data["message"]
     answer = generate_response_qa(message)
     similar_questions = generate_response_questions(message)
-    return {"answer": answer, "similar_questions": similar_questions}
+    actions = generate_actions(message)
+    return {"answer": answer, "similar_questions": similar_questions, "actions": actions}

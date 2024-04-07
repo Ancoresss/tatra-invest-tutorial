@@ -15,6 +15,10 @@ interface ChatProps extends HTMLAttributes<HTMLDivElement> {}
 export const Chat: FC<ChatProps> = ({ className, ...props }) => {
   const state = useChatStorage();
 
+  const lastMessage = state.messages.at(-1);
+  const isSimilarQuestions =
+    lastMessage?.type === "ai" ? Boolean(lastMessage.similar_questions?.length) : false;
+
   return (
     <>
       <Button
@@ -44,7 +48,7 @@ export const Chat: FC<ChatProps> = ({ className, ...props }) => {
           </Button>
         </CardHeader>
         <Separator></Separator>
-        <Messages className="pt-6 flex-[2] overflow-y-auto" />
+        <Messages className={cn("pt-6 flex-[2] overflow-y-auto", isSimilarQuestions && "pb-16")} />
         <ChatInput className="py-6 px-6" />
       </Card>
     </>

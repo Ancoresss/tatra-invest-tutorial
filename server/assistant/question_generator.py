@@ -9,7 +9,7 @@ from typing import List
 from langchain_core.callbacks import BaseCallbackHandler
 from langchain_core.messages import HumanMessage
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 model = OpenAI()
 

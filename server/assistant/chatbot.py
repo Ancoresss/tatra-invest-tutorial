@@ -7,10 +7,10 @@ from langchain_core.runnables import RunnablePassthrough, Runnable, RunnableLamb
 from langchain_core.output_parsers import StrOutputParser
 from prompts.prompts import prompts
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = ""
 
 # model = Ollama(model="mistral")
-model = OpenAI()
+model = OpenAI(mode="gpt-4-1106-preview")
 chat_histories = {
   "request for clarification": [],
   "general": []
