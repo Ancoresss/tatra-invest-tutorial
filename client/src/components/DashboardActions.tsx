@@ -9,6 +9,7 @@ import { SimpleStock } from "@/lib/types";
 import React, { useContext, useState } from "react";
 import { ToggleGroup, ToggleGroupItem } from "./ui/toggle-group";
 import {Calendar} from "@/components/ui/calendar";
+import {BuyHandler, onBuyHandler, SellHandler} from "@/components/stocksFunctions";
 
 
 export default function DashboardActions() {
@@ -27,69 +28,85 @@ export default function DashboardActions() {
   );
 
   const onBuyHandler = () => {
-    if (
-      !(
-        profileInfo.profileData?.balance !== undefined &&
-        stockInfo.currentStock?.prices.length &&
-        profileInfo.profileData.balance > +inputVal &&
-        profileInfo.setProfile
-      )
-    ) {
-      console.log("Not enough balance or invalid profile data");
-      return;
+    if (profileInfo.setProfile==undefined){
+      return
     }
-    let toBuyValue = Number(inputVal);
-    let currentStockPrice = stockInfo.currentStock.prices[0].price;
 
-    const stockBought = toBuyValue / currentStockPrice;
-    const priceBefore = profileInfo.profileData.balance;
-    const priceSpent = toBuyValue;
-    let currentCase: Array<SimpleStock> = profileInfo.profileData.stocks;
-    let existsStatus = currentCase.find((item) => item.id == stockInfo.currentStock?.id);
+    // if (transactionCharacter=="immediately"){
+        profileInfo.setProfile(BuyHandler(profileInfo, stockInfo, inputVal));
+    // }
 
-    if (existsStatus) {
-      currentCase.map((item) => {
-        if (item.id == stockInfo.currentStock?.id) {
-          item.amount = item.amount + stockBought;
-          return item;
-        }
-      });
-      profileInfo.setProfile({ balance: priceBefore - priceSpent, stocks: currentCase });
-    } else {
-      profileInfo.setProfile({
-        balance: priceBefore - priceSpent,
-        stocks: [
-          ...currentCase,
-          { name: stockInfo.currentStock.id, id: stockInfo.currentStock.id, amount: stockBought },
-        ],
-      });
-    }
+
+    // if (
+    //   !(
+    //     profileInfo.profileData?.balance !== undefined &&
+    //     stockInfo.currentStock?.prices.length &&
+    //     profileInfo.profileData.balance > +inputVal &&
+    //     profileInfo.setProfile
+    //   )
+    // ) {
+    //   console.log("Not enough balance or invalid profile data");
+    //   return;
+    // }
+    // let toBuyValue = Number(inputVal);
+    // let currentStockPrice = stockInfo.currentStock.prices[0].price;
+    //
+    // const stockBought = toBuyValue / currentStockPrice;
+    // const priceBefore = profileInfo.profileData.balance;
+    // const priceSpent = toBuyValue;
+    // let currentCase: Array<SimpleStock> = profileInfo.profileData.stocks;
+    // let existsStatus = currentCase.find((item) => item.id == stockInfo.currentStock?.id);
+    //
+    // if (existsStatus) {
+    //   currentCase.map((item) => {
+    //     if (item.id == stockInfo.currentStock?.id) {
+    //       item.amount = item.amount + stockBought;
+    //       return item;
+    //     }
+    //   });
+    //   profileInfo.setProfile({ balance: priceBefore - priceSpent, stocks: currentCase });
+    // } else {
+    //   profileInfo.setProfile({
+    //     balance: priceBefore - priceSpent,
+    //     stocks: [
+    //       ...currentCase,
+    //       { name: stockInfo.currentStock.id, id: stockInfo.currentStock.id, amount: stockBought },
+    //     ],
+    //   });
+    // }
     setInput("");
   };
 
   const onSellHandler = () => {
-    if (!(stockInfo.currentStock?.prices.length && profileInfo.setProfile)) {
-      console.log("Not enough balance or invalid profile data");
-      return;
-    }
-    let toSellValue = Number(inputVal);
-    let currentStockPrice = stockInfo.currentStock.prices[0].price;
-
-    const dollarsAmount = toSellValue * currentStockPrice;
-    const userStock = profileInfo.profileData?.stocks.find(
-      (s) => s.id === stockInfo.currentStock?.id
-    );
-    const userAmount = userStock?.amount ?? 0;
-    if (!userStock || userAmount < toSellValue) {
-      return;
+    if (profileInfo.setProfile==undefined){
+      return
     }
 
-    userStock.amount -= toSellValue;
+    profileInfo.setProfile(SellHandler(profileInfo,stockInfo,inputVal));
 
-    profileInfo.setProfile({
-      ...profileInfo.profileData,
-      balance: profileInfo.profileData?.balance + dollarsAmount,
-    });
+
+    // if (!(stockInfo.currentStock?.prices.length && profileInfo.setProfile)) {
+    //   console.log("Not enough balance or invalid profile data");
+    //   return;
+    // }
+    // let toSellValue = Number(inputVal);
+    // let currentStockPrice = stockInfo.currentStock.prices[0].price;
+    //
+    // const dollarsAmount = toSellValue * currentStockPrice;
+    // const userStock = profileInfo.profileData?.stocks.find(
+    //   (s) => s.id === stockInfo.currentStock?.id
+    // );
+    // const userAmount = userStock?.amount ?? 0;
+    // if (!userStock || userAmount < toSellValue) {
+    //   return;
+    // }
+    //
+    // userStock.amount -= toSellValue;
+    //
+    // profileInfo.setProfile({
+    //   ...profileInfo.profileData,
+    //   balance: profileInfo.profileData?.balance + dollarsAmount,
+    // });
 
     setInput("");
   };
