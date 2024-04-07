@@ -23,13 +23,31 @@ export const scenarios: IScenario[] = [
         scenarioType: 'buyStock',
         instructions: [
             {
-                text: 'Set the date and conditions based on which the stock should be bought (optional)',
+                text: 'Click on the “Buy” button',
                 targetElementId: ''
             }
         ]
     },
     {
-        scenarioType: 'buyStock',
+        scenarioType: 'buyStockDelay',
+        instructions: [
+            {
+                text: 'Choose the stock from the list of the available stocks',
+                targetElementId: ''
+            }
+        ]
+    },
+    {
+        scenarioType: 'buyStockDelay',
+        instructions: [
+            {
+                text: 'Set the sum based on which the stock should be bought',
+                targetElementId: ''
+            }
+        ]
+    },
+    {
+        scenarioType: 'buyStockDelay',
         instructions: [
             {
                 text: 'Click on the “Buy” button',
@@ -59,16 +77,43 @@ export const scenarios: IScenario[] = [
         scenarioType: 'sellStock',
         instructions: [
             {
-                text: 'Set the date and conditions based on which the stock should be sold (optional)',
+                text: 'Click on the “Sell” button',
                 targetElementId: ''
             }
         ]
     },
     {
-        scenarioType: 'sellStock',
+        scenarioType: 'sellStockDelay',
+        instructions: [
+            {
+                text: 'Choose the stock from the list of the bought stocks',
+                targetElementId: ''
+            }
+        ]
+    },
+    {
+        scenarioType: 'sellStockDelay',
+        instructions: [
+            {
+                text: 'Set the sum based on which the stock should be sold',
+                targetElementId: ''
+            }
+        ]
+    },
+    {
+        scenarioType: 'sellStockDelay',
         instructions: [
             {
                 text: 'Click on the “Sell” button',
+                targetElementId: ''
+            }
+        ]
+    },
+    {
+        scenarioType: 'sellStockDelay',
+        instructions: [
+            {
+                text: 'Choose the stock from the list of the bought stocks',
                 targetElementId: ''
             }
         ]
