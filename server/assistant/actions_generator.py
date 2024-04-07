@@ -35,7 +35,7 @@ db = Chroma.from_documents(data, embeddings_model)
 def generate_actions(query: str):
     embedded_query = db.similarity_search_with_score(query)
     filtered_sorted_results = sorted(
-        (item for item in embedded_query if item[1] > 0.4),
+        (item for item in embedded_query if item[1] > 0.6),
         key=lambda x: x[1], reverse=True
     )
     # Extract and return the "type" from the metadata of each result
