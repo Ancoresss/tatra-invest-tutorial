@@ -17,7 +17,7 @@ export const GuideProvider: FC<{ children: ReactNode }> = ({ children }) => {
   useEffect(() => {
     const scenario = scenarios.find((s) => s.scenarioType === activeScenario);
     if (!scenario) return;
-    const instr = scenario.instructions[0];
+    const instr = scenario.instructions[currentInstruction ?? 0];
     // setCurrentInstruction(i);
     const el = document.querySelector(`[data-${scenario.scenarioType}-${currentInstruction}]`);
     if (!el || el.querySelector(".instruction")) return;
