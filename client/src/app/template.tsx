@@ -1,15 +1,20 @@
 import {Header} from "@/components/Header";
+import {GuideProvider} from "@/context/GuideContext";
+import {ProfileProvider} from "@/context/ProfileContext";
 import {StockProvider} from "@/context/StockContext";
 import {ReactNode} from "react";
-import {ProfileProvider} from "@/context/ProfileContext";
 
 export default function Template({children}: { children: ReactNode }) {
     return (
-        <StockProvider>
-            <ProfileProvider>
-                <Header></Header>
-                {children}
-            </ProfileProvider>
-        </StockProvider>
+        <ProfileProvider>
+
+            <StockProvider>
+                <GuideProvider>
+                    <Header></Header>
+                    {children}
+                </GuideProvider>
+            </StockProvider>
+        </ProfileProvider>
+
     );
 }

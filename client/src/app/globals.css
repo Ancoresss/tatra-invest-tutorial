@@ -93,3 +93,46 @@ ol li {
   padding: theme(spacing.4);
   max-width: 80%;
 }
+
+.instruction {
+  display: flex;
+  text-align: left;
+  gap: theme(spacing.2);
+  cursor: pointer;
+  padding: theme(spacing.4);
+  border-radius: theme(borderRadius.md);
+  position: absolute;
+  width: 240px;
+  color: theme(colors.white);
+  background: theme(colors.slate.900);
+  white-space: break-spaces;
+}
+
+.instruction::after {
+  content: "→";
+  font-size: theme(fontSize.lg);
+}
+
+.instruction-top {
+  bottom: 100%;
+  left: 50%;
+  translate: -50% -8px;
+}
+
+.instruction-left {
+  right: 100%;
+  top: 50%;
+  translate: -8px -50%;
+}
+
+.instruction-right {
+  left: 100%;
+  top: 50%;
+  translate: 8px -50%;
+}
+
+.instruction-bottom {
+  top: 100%;
+  left: 50%;
+  translate: -50% 8px;
+}
