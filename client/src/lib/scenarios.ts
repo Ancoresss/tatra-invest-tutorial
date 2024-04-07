@@ -7,21 +7,11 @@ export const scenarios: IScenario[] = [
             {
                 text: 'Choose the stock from the list of the available stocks',
                 targetElementId: ''
-            }
-        ]
-    },
-    {
-        scenarioType: 'buyStock',
-        instructions: [
+            },
             {
                 text: 'Set the parameters based on which user want to buy the stock',
                 targetElementId: ''
-            }
-        ]
-    },
-    {
-        scenarioType: 'buyStock',
-        instructions: [
+            },
             {
                 text: 'Click on the “Buy” button',
                 targetElementId: ''
@@ -34,21 +24,11 @@ export const scenarios: IScenario[] = [
             {
                 text: 'Choose the stock from the list of the available stocks',
                 targetElementId: ''
-            }
-        ]
-    },
-    {
-        scenarioType: 'buyStockDelay',
-        instructions: [
+            },
             {
                 text: 'Set the sum based on which the stock should be bought',
                 targetElementId: ''
-            }
-        ]
-    },
-    {
-        scenarioType: 'buyStockDelay',
-        instructions: [
+            },
             {
                 text: 'Click on the “Buy” button',
                 targetElementId: ''
@@ -61,21 +41,11 @@ export const scenarios: IScenario[] = [
             {
                 text: 'Choose the stock from the list of the bought stocks',
                 targetElementId: ''
-            }
-        ]
-    },
-    {
-        scenarioType: 'sellStock',
-        instructions: [
+            },
             {
                 text: 'Set the parameters based on which user want to sell the stock',
                 targetElementId: ''
-            }
-        ]
-    },
-    {
-        scenarioType: 'sellStock',
-        instructions: [
+            },
             {
                 text: 'Click on the “Sell” button',
                 targetElementId: ''
@@ -88,32 +58,13 @@ export const scenarios: IScenario[] = [
             {
                 text: 'Choose the stock from the list of the bought stocks',
                 targetElementId: ''
-            }
-        ]
-    },
-    {
-        scenarioType: 'sellStockDelay',
-        instructions: [
+            },
             {
                 text: 'Set the sum based on which the stock should be sold',
                 targetElementId: ''
-            }
-        ]
-    },
-    {
-        scenarioType: 'sellStockDelay',
-        instructions: [
+            },
             {
                 text: 'Click on the “Sell” button',
-                targetElementId: ''
-            }
-        ]
-    },
-    {
-        scenarioType: 'sellStockDelay',
-        instructions: [
-            {
-                text: 'Choose the stock from the list of the bought stocks',
                 targetElementId: ''
             }
         ]
@@ -124,21 +75,11 @@ export const scenarios: IScenario[] = [
             {
                 text: 'Open list of the bought stocks',
                 targetElementId: ''
-            }
-        ]
-    },
-    {
-        scenarioType: 'profileCheck',
-        instructions: [
+            },
             {
                 text: 'Select those which should be analysed',
                 targetElementId: ''
-            }
-        ]
-    },
-    {
-        scenarioType: 'profileCheck',
-        instructions: [
+            },
             {
                 text: 'Checked the calculated report',
                 targetElementId: ''
