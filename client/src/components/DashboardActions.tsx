@@ -5,16 +5,23 @@ import { Input } from "@/components/ui/input";
 import ProfileContext from "@/context/ProfileContext";
 import StockContext from "@/context/StockContext";
 import { SimpleStock } from "@/lib/types";
-import { useContext, useState } from "react";
+
+import React, { useContext, useState } from "react";
 import { ToggleGroup, ToggleGroupItem } from "./ui/toggle-group";
+import {Calendar} from "@/components/ui/calendar";
+
 
 export default function DashboardActions() {
   const [transactionType, setTransactionType] = useState<"buy" | "sell">("buy");
+  const [transactionCharacter, setTransactionCharacter] = useState<"immediately" | "time"| "price">("immediately")
+
   const profileInfo = useContext(ProfileContext);
   const stockInfo = useContext(StockContext);
 
   const [inputVal, setInput] = useState("");
 
+  const [pricePicker, setPricePicker] = useState(0);
+  const [date, setDate] = React.useState<Date | undefined>(new Date())
   const currentStockProfile = profileInfo.profileData?.stocks.find(
     (s) => s.id === stockInfo.currentStock?.id
   );
@@ -121,9 +128,39 @@ export default function DashboardActions() {
           onClick={transactionType === "buy" ? onBuyHandler : onSellHandler}
           className="basis-0 grow"
         >
-          Buy immediately
+          Go
         </Button>
       </div>
+
+      <ToggleGroup type="single" value={transactionCharacter}>
+        <ToggleGroupItem value="immediately" onClick={() => setTransactionCharacter("immediately")}>
+          Immidiately
+        </ToggleGroupItem>
+        <ToggleGroupItem value="time" onClick={() => setTransactionCharacter("time")}>
+          Time
+        </ToggleGroupItem>
+        <ToggleGroupItem value="price" onClick={() => setTransactionCharacter("price")}>
+          Price
+        </ToggleGroupItem>
+      </ToggleGroup>
+
+      {transactionCharacter=="time" && <Calendar
+          mode="single"
+          selected={date}
+          onSelect={setDate}
+          className="rounded-md border self-center"
+      />}
+      {transactionCharacter=="price" &&
+          <Input
+              type="number"
+
+              onChange={(event) => setPricePicker(+event.target.value)}
+              value={pricePicker}
+              placeholder={"Put limit price"}
+          />
+          // <Slider defaultValue={[0]} value={[pricePicker]} onChange={(event)=> console.log(event.target.value)} max={100} step={1} />
+      }
+
     </div>
   );
 }
