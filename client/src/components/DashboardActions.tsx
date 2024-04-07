@@ -114,7 +114,7 @@ export default function DashboardActions() {
   return (
     <div className=" p-6 col-span-4 w-full flex gap-4 flex-col">
       <ToggleGroup type="single" value={transactionType}>
-        <ToggleGroupItem value="buy" onClick={() => setTransactionType("buy")}>
+        <ToggleGroupItem value="buy" data-buystock-1="top" onClick={() => setTransactionType("buy")}>
           Buy
         </ToggleGroupItem>
         <ToggleGroupItem value="sell" onClick={() => setTransactionType("sell")}>
@@ -129,7 +129,7 @@ export default function DashboardActions() {
             : 0}
         </span>
       </div>
-      <div data-buystock-1="top">
+      <div data-buystock-2="top" data-buystockdelay-3="left" data-buystockdate-3="left">
         <Input
           type="number"
           onKeyDown={(e) =>
@@ -140,7 +140,7 @@ export default function DashboardActions() {
           placeholder={transactionType === "buy" ? "Amount in $" : "Amount in stock"}
         />
       </div>
-      <div className="flex gap-4">
+      <div className="flex gap-4" data-buystock-3="bottom" data-buystockdelay-4="top" data-buystockdate-4="top">
         <Button
           onClick={transactionType === "buy" ? onBuyHandler : onSellHandler}
           className="basis-0 grow"
@@ -153,10 +153,10 @@ export default function DashboardActions() {
         <ToggleGroupItem value="immediately" onClick={() => setTransactionCharacter("immediately")}>
           Immidiately
         </ToggleGroupItem>
-        <ToggleGroupItem value="time" onClick={() => setTransactionCharacter("time")}>
+        <ToggleGroupItem value="time" data-buystockdate-1="bottom" onClick={() => setTransactionCharacter("time")}>
           Time
         </ToggleGroupItem>
-        <ToggleGroupItem value="price" onClick={() => setTransactionCharacter("price")}>
+        <ToggleGroupItem value="price" data-buystockdelay-1="top" onClick={() => setTransactionCharacter("price")}>
           Price
         </ToggleGroupItem>
       </ToggleGroup>
@@ -167,6 +167,7 @@ export default function DashboardActions() {
           onSelect={setDate}
           className="rounded-md border self-center"
       />}
+      {<div data-buystockdate-2="left"></div>}
       {transactionCharacter=="price" &&
           <Input
               type="number"
@@ -177,6 +178,7 @@ export default function DashboardActions() {
           />
           // <Slider defaultValue={[0]} value={[pricePicker]} onChange={(event)=> console.log(event.target.value)} max={100} step={1} />
       }
+      {<div data-buystockdelay-2="bottom"></div>}
 
     </div>
   );

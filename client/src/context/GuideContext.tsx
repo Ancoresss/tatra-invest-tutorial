@@ -11,7 +11,7 @@ const GuideContext = React.createContext<{
 export default GuideContext;
 
 export const GuideProvider: FC<{ children: ReactNode }> = ({ children }) => {
-  const [activeScenario, setActiveScenario] = useState<string | undefined>();
+  const [activeScenario, setActiveScenario] = useState<string | undefined>("buystockdate");
   const [currentInstruction, setCurrentInstruction] = useState<number | undefined>(0);
 
   useEffect(() => {

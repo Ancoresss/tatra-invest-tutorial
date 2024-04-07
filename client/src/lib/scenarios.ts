@@ -8,10 +8,13 @@ export const scenarios: IScenario[] = [
         text: "Choose the stock from the list of the available stocks",
       },
       {
-        text: "Set the parameters based on which user want to buy the stock",
+        text: "Check the “Buy” option",
       },
       {
-        text: "Click on the “Buy” button",
+        text: "Set the sum represents how many stocks user want to buy",
+      },
+      {
+        text: "Click on the “Go” button",
       },
     ],
   },
@@ -22,10 +25,36 @@ export const scenarios: IScenario[] = [
         text: "Choose the stock from the list of the available stocks",
       },
       {
-        text: "Set the sum based on which the stock should be bought",
+        text: "Choose the “Price” option",
       },
       {
-        text: "Click on the “Buy” button",
+        text: "Set the price for the stock based on which it should be bought automatically",
+      },
+      {
+        text: "Set the sum represents how many stocks user want to buy",
+      },
+      {
+        text: "Click on the “Go” button",
+      },
+    ],
+  },
+  {
+    scenarioType: "buystockdate",
+    instructions: [
+      {
+        text: "Choose the stock from the list of the available stocks",
+      },
+      {
+        text: "Choose the “Time” option",
+      },
+      {
+        text: "Set the date when the stock should be bought automatically",
+      },
+      {
+        text: "Set the sum represents how many stocks user want to buy",
+      },
+      {
+        text: "Click on the “Go” button",
       },
     ],
   },
@@ -39,7 +68,7 @@ export const scenarios: IScenario[] = [
         text: "Set the parameters based on which user want to sell the stock",
       },
       {
-        text: "Click on the “Sell” button",
+        text: "Click on the “Go” button",
       },
     ],
   },
@@ -53,7 +82,7 @@ export const scenarios: IScenario[] = [
         text: "Set the sum based on which the stock should be sold",
       },
       {
-        text: "Click on the “Sell” button",
+        text: "Click on the “Go” button",
       },
     ],
   },

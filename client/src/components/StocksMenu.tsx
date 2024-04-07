@@ -21,7 +21,7 @@ export const StocksMenu: FC<StocksMenuProps> = ({}) => {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <Button data-buystock-0="right">Select a stock</Button>
+        <Button data-buystock-0="right" data-buystockdelay-0="right" data-buystockdate-0="right">Select a stock</Button>
       </SheetTrigger>
       <SheetContent side="left">
         <SheetHeader>
