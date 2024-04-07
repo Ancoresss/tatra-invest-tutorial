@@ -1,15 +1,15 @@
 "use client";
 
-import React, { FC, ReactNode, useEffect, useMemo, useState } from "react";
-import StockInfo from "@/type/StockInfo";
 import { IStock, StockByCountry } from "@/lib/types";
 import { getStockByName, getStocksByCountries } from "@/services/stocksService";
+import StockInfo from "@/type/StockInfo";
+import React, { Dispatch, FC, ReactNode, SetStateAction, useEffect, useState } from "react";
 import useSWR from "swr";
-import {data} from "autoprefixer";
 
-const StockContext = React.createContext<{ currentStock?: IStock }>(
-  {} as { stock: StockInfo; currentStock: IStock }
-);
+const StockContext = React.createContext<{
+  currentStock?: IStock;
+  setCurrentStockId?: Dispatch<SetStateAction<string | undefined>>;
+}>({} as { stock: StockInfo; currentStock: IStock });
 
 export default StockContext;
 
@@ -33,7 +33,9 @@ export const StockProvider: FC<{ children: ReactNode }> = ({ children }) => {
   );
 
   return stocksByCountries ? (
-    <StockContext.Provider value={{ currentStock }}>{children}</StockContext.Provider>
+    <StockContext.Provider value={{ currentStock, setCurrentStockId }}>
+      {children}
+    </StockContext.Provider>
   ) : null;
 };
 export function useStockContext() {

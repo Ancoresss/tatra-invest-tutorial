@@ -1,7 +1,6 @@
 "use client";
 
 import StockContext from "@/context/StockContext";
-import { ChartData } from "@/lib/types";
 import {
   CategoryScale,
   Chart as ChartJS,
