@@ -47,6 +47,8 @@ class Assistan:
     def init_module(self):
         self.prepare_vector_db()
         self.prepare_chain()
+
+
     def prepare_vector_db(self):
         text_splitter = CharacterTextSplitter(separator="\n", chunk_size=4000, chunk_overlap=0)
         loader = TextLoader(self.path)
@@ -241,8 +243,7 @@ class Assistan:
 
                     self.init_module()
                     response = self.chain.run(f"""
-                        Give me guide what i should press to achive this state based on code project. if no functionality provided, write no functionality provided.
-                        Note: you should provide for user, without showing real data of components
+                        Response with instruction name ( scenarioType ), and important add more detailed instruction
                         here request {chain['output']}
                     
                     """)
@@ -260,14 +261,17 @@ class Assistan:
                     chains.remove(chain)
 
 
+    def on_action(self, text):
+        self.init_module()
+        response = self.chain.run(f"""
+                                Response with instruction name ( scenarioType ), and important add more detailed instruction
+                                here request {text}
 
+                            """)
+        return response
 
 
 if __name__ == "__main__":
     ai = Assistan()
-    type, user_summarization = ai.on_start()
-    #
-    # if type=='general':
-    #     ai.on_chatAI(user_summarization)
-    # if type=='embedding':
-    #     ai.on_chatAI(user_summarization)
+    ai.on_start()
+
