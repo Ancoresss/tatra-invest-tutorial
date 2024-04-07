@@ -5,10 +5,14 @@ export type ChartData = {
   date: string;
 };
 
-
+export type SimpleStock ={
+  name:string,
+  id:string,
+  amount:number,
+}
 export type ProfileData = {
   balance: number;
-  stocks: Array<string>;
+  stocks: Array<SimpleStock>;
 };
 
 export type StockByCountry = { name: string; country: string };
