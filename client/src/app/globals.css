@@ -79,6 +79,14 @@
   box-sizing: border-box;
 }
 
+ol {
+  margin-left: theme(spacing.4);
+}
+
+ol li {
+  list-style: decimal;
+}
+
 .message-block {
   border-radius: theme(borderRadius.xl);
   background: theme(colors.gray.100);

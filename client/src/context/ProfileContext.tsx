@@ -1,9 +1,7 @@
 "use client"
 
-import React, {Dispatch, FC, ReactNode, SetStateAction, useState} from "react";
-import StockInfo from "@/type/StockInfo";
-import {IStock, ProfileData} from "@/lib/types";
-import StockContext from "@/context/StockContext";
+import { ProfileData } from "@/lib/types";
+import React, { Dispatch, FC, ReactNode, SetStateAction, useState } from "react";
 
 const ProfileContext =
     React.createContext<{ profileData?: ProfileData;setProfile?:Dispatch<SetStateAction<ProfileData | undefined>>; }>({} );
@@ -30,6 +28,3 @@ export const ProfileProvider: FC<{ children: ReactNode }> = ({ children }) => {
         <ProfileContext.Provider value={{  profileData, setProfile }}>{children}</ProfileContext.Provider>
     ) : null;
 };
-export function useStockContext() {
-    return React.useContext(StockContext);
-}

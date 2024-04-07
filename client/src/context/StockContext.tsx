@@ -33,6 +33,10 @@ export const StockProvider: FC<{ children: ReactNode }> = ({ children }) => {
     }
   );
 
+  useEffect(() => {
+    
+  }, [currentStock])
+
   return stocksByCountries ? (
     <StockContext.Provider value={{ currentStock, stocksByCountries, setCurrentStockId }}>
       {children}

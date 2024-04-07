@@ -5,11 +5,17 @@ export type ChartData = {
   date: string;
 };
 
-export type SimpleStock ={
-  name:string,
-  id:string,
-  amount:number,
-}
+export type SimpleStock = {
+  name: string;
+  id: string;
+  amount: number;
+  plannedAction?: {
+    transactionType: "buy" | "sell";
+    type: "date" | "threshold";
+    value: string;
+    amount: number;
+  };
+};
 export type ProfileData = {
   balance: number;
   stocks: Array<SimpleStock>;
@@ -29,7 +35,6 @@ export type IStock = {
 
 export type IScenarioInstruction = {
   text: string;
-  targetElementId: string;
 };
 
 export type IScenario = {
