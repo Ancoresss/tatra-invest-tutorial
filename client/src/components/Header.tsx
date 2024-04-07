@@ -22,7 +22,7 @@ export const Header: FC<HeaderProps> = () => {
 
     return (
         <header className="gap-3 text-lg flex w-full justify-between pt-3 pb-0 p-6">
-            <NavigationMenu>
+            {/* <NavigationMenu>
                 <NavigationMenuList>
                     <NavigationMenuItem className="flex gap-2">
 
@@ -30,7 +30,7 @@ export const Header: FC<HeaderProps> = () => {
                         <NavigationMenuLink asChild><Link href="/profile">Profile</Link></NavigationMenuLink>
                     </NavigationMenuItem>
                 </NavigationMenuList>
-            </NavigationMenu>
+            </NavigationMenu> */}
 
             <div className="flex gap-2">
                 <LucideLineChart color="black" /> Tatra Invest

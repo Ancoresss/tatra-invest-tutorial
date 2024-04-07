@@ -31,5 +31,3 @@ chain = (
 def generate_response_questions(query: str):
   result = chain.invoke(query)
   return result
-
-print(generate_response_questions("invest 100"))

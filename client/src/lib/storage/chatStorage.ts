@@ -7,6 +7,7 @@ type BaseMessage = {
 
 export interface IAIMessage extends BaseMessage {
   type: "ai";
+  similar_questions?: string[];
 }
 
 export interface IHumanMessage extends BaseMessage {
@@ -25,14 +26,16 @@ type Action = {
   sendMessage: (message: IHumanMessage) => Promise<void>;
 };
 
+const questionPattern = /[0-9]+\.(.+\?)/g;
+
 export const useChatStorage = create<State & Action>((set) => ({
-  chatOpen: false,
+  chatOpen: true,
   messages: [{ type: "ai", text: "Hello, I'm here to help you with any of your troubles." }],
   setChatOpen: (chatOpen) => set(() => ({ chatOpen })),
   sendMessage: async (message: IHumanMessage) => {
     set((state) => ({ messages: [...state.messages, message] }));
     const url = `${config.BACKEND_API_URL}/chat`;
-    const aiResponse = await fetch(url, {
+    const aiResponse: { answer: string; similar_questions: string } = await fetch(url, {
       method: "POST",
       headers: {
         "content-type": "application/json",
@@ -41,6 +44,12 @@ export const useChatStorage = create<State & Action>((set) => ({
         message: message.text,
       }),
     }).then((res) => res.json());
-    set((state) => ({ messages: [...state.messages, { type: "ai", text: aiResponse.answer }] }));
+    const similar_questions = Array.from(
+      aiResponse.similar_questions.matchAll(questionPattern)
+    )?.map((group) => group[1]);
+    
+    set((state) => ({
+      messages: [...state.messages, { type: "ai", text: aiResponse.answer, similar_questions }],
+    }));
   },
 }));

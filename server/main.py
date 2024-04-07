@@ -19,5 +19,4 @@ async def root(req: Request):
     message = data["message"]
     answer = generate_response_qa(message)
     similar_questions = generate_response_questions(message)
-    recommended_action = embedding.similarity_search()
     return {"answer": answer, "similar_questions": similar_questions}
