@@ -1,58 +1,62 @@
 import ProfileContext from "@/context/ProfileContext";
 import StockContext from "@/context/StockContext";
-import {IStock, ProfileData} from "@/lib/types";
+import {IStock, ProfileData, SimpleStock} from "@/lib/types";
 import StockInfo from "@/type/StockInfo";
 
 export const BuyHandler = (
-    profileInfo: ProfileContext,
-    stockInfo: StockContext,
+    profileData: ProfileData,
+    currentStock: IStock,
     inputVal: string
-): {} => {
+): ProfileData|undefined => {
+
+
     if (
         !(
-            profileInfo.profileData?.balance !== undefined &&
-            stockInfo.currentStock?.prices.length &&
-            profileInfo.profileData.balance > +inputVal &&
-            profileInfo.setProfile
+            profileData?.balance !== undefined &&
+            currentStock?.prices.length &&
+            profileData.balance > +inputVal
         )
     ) {
         console.log("Not enough balance or invalid profile data");
         return;
     }
     let toBuyValue = Number(inputVal);
-    let currentStockPrice = stockInfo.currentStock.prices[0].price;
+    let currentStockPrice = currentStock.prices[0].price;
 
     const stockBought = toBuyValue / currentStockPrice;
-    const priceBefore = profileInfo.profileData.balance;
+    const priceBefore = profileData.balance;
     const priceSpent = toBuyValue;
-    let currentCase = profileInfo.profileData.stocks;
-    let existsStatus = currentCase.find((item) => item.id === stockInfo.currentStock?.id);
+    let currentCase: Array<SimpleStock> = profileData.stocks;
+    let existsStatus = currentCase.find((item) => item.id == currentStock?.id);
 
     if (existsStatus) {
-        currentCase = currentCase.map((item) => {
-            if (item.id === stockInfo.currentStock?.id) {
+        currentCase.map((item) => {
+            if (item.id == currentStock?.id) {
                 item.amount = item.amount + stockBought;
+                return item;
             }
-            return item;
         });
-        return{ balance: priceBefore - priceSpent, stocks: currentCase };
+        return { balance: priceBefore - priceSpent, stocks: currentCase };
     } else {
-        return {
+        return{
             balance: priceBefore - priceSpent,
             stocks: [
                 ...currentCase,
-                { name: stockInfo.currentStock.id, id: stockInfo.currentStock.id, amount: stockBought },
+                { name: currentStock.id, id: currentStock.id, amount: stockBought },
             ],
         };
     }
+
+
 };
 
 export const SellHandler = (
     profileData: ProfileData,
     currentStock: IStock,
     inputVal: string,
-): ProfileData => {
-    if (!(currentStock?.prices.length)) {
+): ProfileData|undefined => {
+
+    if (!(currentStock?.prices.length )) {
         console.log("Not enough balance or invalid profile data");
         return;
     }
@@ -71,8 +75,9 @@ export const SellHandler = (
     userStock.amount -= toSellValue;
 
     return {
-        profileData,
+        ...profileData,
         balance: profileData?.balance + dollarsAmount,
     };
+
 
 };

@@ -9,7 +9,7 @@ import { SimpleStock } from "@/lib/types";
 import React, { useContext, useState } from "react";
 import { ToggleGroup, ToggleGroupItem } from "./ui/toggle-group";
 import {Calendar} from "@/components/ui/calendar";
-import {BuyHandler, onBuyHandler, SellHandler} from "@/components/stocksFunctions";
+import {BuyHandler, SellHandler} from "@/components/stocksFunctions";
 
 
 export default function DashboardActions() {
@@ -23,7 +23,7 @@ export default function DashboardActions() {
 
   const [pricePicker, setPricePicker] = useState(0);
   const [date, setDate] = React.useState<Date | undefined>(new Date())
-  const currentStockProfile = profileInfo.profileData?.stocks.find(
+  const currentStockProfile = profileInfo.profileData?.stocks?.find(
     (s) => s.id === stockInfo.currentStock?.id
   );
 
@@ -33,10 +33,12 @@ export default function DashboardActions() {
     }
 
     // if (transactionCharacter=="immediately"){
-        profileInfo.setProfile(BuyHandler(profileInfo, stockInfo, inputVal));
+    //     profileInfo.setProfile(BuyHandler(profileInfo.profileData, stockInfo.currentStock, inputVal));
     // }
 
-
+    if (profileInfo.profileData!==undefined && stockInfo.currentStock!==undefined) {
+      profileInfo.setProfile(BuyHandler(profileInfo.profileData, stockInfo.currentStock, inputVal));
+    }
     // if (
     //   !(
     //     profileInfo.profileData?.balance !== undefined &&
@@ -78,13 +80,15 @@ export default function DashboardActions() {
   };
 
   const onSellHandler = () => {
-    if (profileInfo.setProfile==undefined){
+    if (profileInfo.profileData==undefined && stockInfo==undefined ){
       return
     }
 
-    profileInfo.setProfile(SellHandler(profileInfo,stockInfo,inputVal));
-
-
+    if (profileInfo.profileData!==undefined && stockInfo.currentStock!==undefined) {
+      // debugger
+      profileInfo?.setProfile?.(SellHandler(profileInfo?.profileData, stockInfo.currentStock, inputVal));
+    }
+    //
     // if (!(stockInfo.currentStock?.prices.length && profileInfo.setProfile)) {
     //   console.log("Not enough balance or invalid profile data");
     //   return;
