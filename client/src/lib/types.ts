@@ -5,6 +5,12 @@ export type ChartData = {
   date: string;
 };
 
+
+export type ProfileData = {
+  balance: number;
+  stocks: Array<string>;
+};
+
 export type StockByCountry = { name: string; country: string };
 
 export type IStock = {

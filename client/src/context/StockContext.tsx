@@ -5,6 +5,7 @@ import StockInfo from "@/type/StockInfo";
 import { IStock, StockByCountry } from "@/lib/types";
 import { getStockByName, getStocksByCountries } from "@/services/stocksService";
 import useSWR from "swr";
+import {data} from "autoprefixer";
 
 const StockContext = React.createContext<{ currentStock?: IStock }>(
   {} as { stock: StockInfo; currentStock: IStock }
