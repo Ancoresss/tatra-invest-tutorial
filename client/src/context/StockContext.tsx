@@ -7,6 +7,7 @@ import React, { Dispatch, FC, ReactNode, SetStateAction, useEffect, useState } f
 import useSWR from "swr";
 
 const StockContext = React.createContext<{
+  stocksByCountries?: StockByCountry[];
   currentStock?: IStock;
   setCurrentStockId?: Dispatch<SetStateAction<string | undefined>>;
 }>({} as { stock: StockInfo; currentStock: IStock });
@@ -33,7 +34,7 @@ export const StockProvider: FC<{ children: ReactNode }> = ({ children }) => {
   );
 
   return stocksByCountries ? (
-    <StockContext.Provider value={{ currentStock, setCurrentStockId }}>
+    <StockContext.Provider value={{ currentStock, stocksByCountries, setCurrentStockId }}>
       {children}
     </StockContext.Provider>
   ) : null;
