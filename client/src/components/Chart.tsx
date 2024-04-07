@@ -11,7 +11,7 @@ import {
   Title,
   Tooltip,
 } from "chart.js";
-import { FC, useContext } from "react";
+import { FC, useContext, useEffect } from "react";
 import { Line } from "react-chartjs-2";
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
@@ -21,6 +21,8 @@ interface ChartProps {}
 export const Chart: FC<ChartProps> = ({}) => {
   const { currentStock } = useContext(StockContext);
   const data = currentStock?.prices ?? [];
+
+  useEffect
 
   return (
     <Line

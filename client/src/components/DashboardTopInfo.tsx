@@ -1,15 +1,14 @@
 "use client";
 
+import StockContext from "@/context/StockContext";
 import { FC, useContext } from "react";
 import { StocksMenu } from "./StocksMenu";
 import { Separator } from "./ui/separator";
-import StockContext from "@/context/StockContext";
-import { Button } from "./ui/button";
 
 interface DashboardTopInfoProps {}
 
 export const DashboardTopInfo: FC<DashboardTopInfoProps> = ({}) => {
-  const { currentStock, setDaysBack } = useContext(StockContext);
+  const { currentStock } = useContext(StockContext);
 
   return (
     <div className="flex gap-6">
@@ -35,12 +34,6 @@ export const DashboardTopInfo: FC<DashboardTopInfoProps> = ({}) => {
             {currentStock.sector ? <div>Sector: {currentStock.sector}</div> : null}
             {currentStock.industry ? <div>Industry: {currentStock.industry}</div> : null}
           </div>
-          <Button
-            onClick={() => setDaysBack?.((prev) => (prev > 0 ? prev - 1 : prev))}
-            className="ml-auto"
-          >
-            Get another day
-          </Button>
         </div>
       ) : null}
     </div>
