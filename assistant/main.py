@@ -34,7 +34,9 @@ class Assistan:
                 {"role": "system", "content": prompts["decide"]["clarification"]}
             ],
             "clarification_pointer": [
-                {"role": "system", "content": prompts["decide"]["clarification"]}
+                {"role": "system", "content": prompts["decide"]["clarification"]},
+                {"role": "system",
+                 "content": "Are you asking about general investment strategies or looking for specific functionality within the app?"}
             ],
             "general": [
                 {"role": "system", "content": prompts["general"]["role_behaviour"]}
@@ -261,12 +263,10 @@ class Assistan:
                     chains.remove(chain)
 
 
-    def on_action(self, text):
+    def on_action(self, text, prompt):
         self.init_module()
         response = self.chain.run(f"""
-                                Response with instruction name ( scenarioType ), and important add more detailed instruction
-                                here request {text}
-
+                                 {prompt} {text}
                             """)
         return response
 
