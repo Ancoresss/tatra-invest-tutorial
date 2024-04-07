@@ -1,11 +1,12 @@
 interface StockInfo {
   dividends: {
-    data: Array<{ Dividend: number }>;
+    data: Array<{ Dividend: number; "Ex-Dividend Date": string }>;
   };
   earnings: {
     data: Array<{
       EPS: string;
       Revenue: string;
+      "Release Date": string;
     }>;
   };
   history_data: {
@@ -15,11 +16,9 @@ interface StockInfo {
       Price: number;
     }>;
   };
-  overview: {};
   profile: {
     data: Array<{ sector: string; industry: string }>;
   };
-  technical_analysis: {};
 }
 
 export default StockInfo;

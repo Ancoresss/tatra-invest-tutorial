@@ -13,8 +13,45 @@ function findWithNumberValue<T extends Record<string, string | number>>(
   return valueIndex !== -1 ? extractor(list[valueIndex]) : "";
 }
 
-export const getStockByName = async (name: string): Promise<IStock> => {
-  const stockData: StockInfo = await fetch(`/api/stocks?stock=${name}`).then((res) => res.json());
+function filterDataByDate(stock: StockInfo, date: Date) {
+  return {
+    dividends: {
+      ...stock.dividends,
+      data: stock.dividends.data
+        .filter((d) => new Date(d["Ex-Dividend Date"]).getTime() < date.getTime())
+        .sort(
+          (a, b) =>
+            new Date(a["Ex-Dividend Date"]).getTime() - new Date(b["Ex-Dividend Date"]).getTime()
+        ),
+    },
+    earnings: {
+      ...stock.earnings,
+      data: stock.earnings.data
+        .filter((d) => new Date(d["Release Date"]).getTime() < date.getTime())
+        .sort(
+          (a, b) => new Date(a["Release Date"]).getTime() - new Date(b["Release Date"]).getTime()
+        ),
+    },
+    history_data: {
+      ...stock.history_data,
+      data: stock.history_data.data
+        .filter((d) => {
+          return new Date(d["Date"]).getTime() < date.getTime();
+        })
+        .sort((a, b) => new Date(a.Date).getTime() - new Date(b.Date).getTime()),
+    },
+    profile: stock.profile,
+  };
+}
+
+export const getStockByName = async (name: string, daysBack: number): Promise<IStock> => {
+  const stockDataRaw: StockInfo = await fetch(`/api/stocks?stock=${name}`).then((res) =>
+    res.json()
+  );
+  const endDate = new Date();
+  endDate.setDate(endDate.getDate() - daysBack);
+  console.log(endDate);
+  const stockData = filterDataByDate(stockDataRaw, endDate);
   const eps = findWithNumberValue(stockData.earnings.data, (item) => item.EPS);
   const revenue = findWithNumberValue(stockData.earnings.data, (item) => item.Revenue);
   return {
