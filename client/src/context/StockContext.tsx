@@ -1,6 +1,6 @@
 "use client";
 
-import React, { FC, ReactNode, useMemo, useState } from "react";
+import React, { FC, ReactNode, useEffect, useMemo, useState } from "react";
 import StockInfo from "@/type/StockInfo";
 import { IStock, StockByCountry } from "@/lib/types";
 import { getStockByName, getStocksByCountries } from "@/services/stocksService";
@@ -18,18 +18,21 @@ export const StockProvider: FC<{ children: ReactNode }> = ({ children }) => {
   const { data: stocksByCountries } = useSWR<StockByCountry[]>("/stocks-by-countries", () => {
     return getStocksByCountries();
   });
+  useEffect(() => {
+    if (!stocksByCountries?.length) return;
+    setCurrentStockId(stocksByCountries[0].name);
+  }, [stocksByCountries]);
   // stocks by countries
   // call use swr and get data
   // get stock by stock name
-  const { data: stockInfo } = useSWR<StockInfo>(currentStockId, async (currentStockId: string) => {
-    return currentStock ? getStockByName(currentStockId) : null;
-  });
+  const { data: currentStock } = useSWR<IStock | undefined>(
+    currentStockId,
+    async (currentStockId: string) => {
+      return currentStockId ? getStockByName(currentStockId) : undefined;
+    }
+  );
 
-  const currentStock = useMemo(() => {
-    return {} as IStock;
-  }, [stockInfo, currentStockId]);
-
-  return data ? (
+  return stocksByCountries ? (
     <StockContext.Provider value={{ currentStock }}>{children}</StockContext.Provider>
   ) : null;
 };

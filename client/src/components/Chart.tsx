@@ -1,5 +1,6 @@
 "use client";
 
+import StockContext from "@/context/StockContext";
 import { ChartData } from "@/lib/types";
 import {
   CategoryScale,
@@ -11,16 +12,17 @@ import {
   Title,
   Tooltip,
 } from "chart.js";
-import { FC } from "react";
+import { FC, useContext } from "react";
 import { Line } from "react-chartjs-2";
 
 ChartJS.register(CategoryScale, LinearScale, PointElement, LineElement, Title, Tooltip, Legend);
 
-interface ChartProps {
-  data: ChartData[];
-}
+interface ChartProps {}
 
-export const Chart: FC<ChartProps> = ({ data }) => {
+export const Chart: FC<ChartProps> = ({}) => {
+  const { currentStock } = useContext(StockContext);
+  const data = currentStock?.prices ?? [];
+
   return (
     <Line
       className="h-full"

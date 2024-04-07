@@ -17,7 +17,7 @@ export type IStock = {
   id: string;
   prices: Array<ChartData>;
   dividends: string;
-  esp: string;
+  eps: string;
   revenue: string;
   sector: string;
   industry: string;

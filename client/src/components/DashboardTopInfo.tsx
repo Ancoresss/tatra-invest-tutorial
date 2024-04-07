@@ -8,34 +8,34 @@ import StockContext from "@/context/StockContext";
 interface DashboardTopInfoProps {}
 
 export const DashboardTopInfo: FC<DashboardTopInfoProps> = ({}) => {
-  const info = useContext(StockContext);
-
-  console.log("DATA->", info.stock);
+  const { currentStock } = useContext(StockContext);
 
   return (
     <div className="flex gap-6">
       <StocksMenu />
-      <div className="flex gap-4">
-        <span className="text-2xl font-bold">Apple/AAPL</span>
-        <Separator orientation="vertical" />
-        <div className="flex flex-col">
-          <div className="font-bold flex content-center">
-            <div className="mr-2">Price/Currency: </div>
-            <span className="text-xl">100/USD</span>
+      {currentStock ? (
+        <div className="flex gap-4">
+          <span className="text-2xl font-bold">{currentStock.id ?? "No stock"}</span>
+          <Separator orientation="vertical" />
+          <div className="flex flex-col">
+            <div className="font-bold flex content-center">
+              <div className="mr-2">Price/Currency: </div>
+              <span className="text-xl">{currentStock.prices[0].price}/USD</span>
+            </div>
+            {currentStock.dividends ? <div>Dividends: {currentStock.dividends}</div> : null}
           </div>
-          <div>Dividends: 0.23</div>
+          <Separator orientation="vertical" />
+          <div className="flex flex-col">
+            {currentStock.eps ? <div>EPS: {currentStock.eps}</div> : null}
+            {currentStock.revenue ? <div>Revenue: {currentStock.revenue}</div> : null}
+          </div>
+          <Separator orientation="vertical" />
+          <div className="flex flex-col">
+            {currentStock.sector ? <div>Sector: {currentStock.sector}</div> : null}
+            {currentStock.industry ? <div>Industry: {currentStock.industry}</div> : null}
+          </div>
         </div>
-        <Separator orientation="vertical" />
-        <div className="flex flex-col">
-          <div>ESP: 1.46</div>
-          <div>Revenue: 89.5B</div>
-        </div>
-        <Separator orientation="vertical" />
-        <div className="flex flex-col">
-          <div>Sector: Technology</div>
-          <div>Industry: Computers, Phones & Household Electronics</div>
-        </div>
-      </div>
+      ) : null}
     </div>
   );
 };

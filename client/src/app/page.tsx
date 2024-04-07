@@ -16,28 +16,7 @@ export default function Home() {
           <Separator />
           <div className="h-full grid grid-cols-12">
             <div className="h-full col-span-8">
-              <Chart
-                data={[
-                  {
-                    date: new Date("2002/03/24").toLocaleDateString(),
-                    name: "Stock",
-                    price: 100.5,
-                    changePercent: "-10%",
-                  },
-                  {
-                    date: new Date("2004/03/24").toLocaleDateString(),
-                    name: "Stock",
-                    price: 300.5,
-                    changePercent: "-10%",
-                  },
-                  {
-                    date: new Date().toLocaleDateString(),
-                    name: "Stock",
-                    price: 180.5,
-                    changePercent: "10%",
-                  },
-                ]}
-              />
+              <Chart />
             </div>
             <DashboardActions />
           </div>
